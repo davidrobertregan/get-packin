@@ -1,0 +1,14 @@
+{
+    "gear": [
+      {
+        "id": 1,
+        "name": "Down Jacket",
+        "category": "upper body",
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+        "description": "Down jacket",
+        "weight": "20oz",
+        "waterproof": false,
+        "quantity": 1
+      }
+    ]
+  }

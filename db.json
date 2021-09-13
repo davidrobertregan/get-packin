@@ -6,7 +6,7 @@
       "category": "Upper Body",
       "image": "https://www.rei.com/media/f495caff-4959-4d2e-90ab-6c5764366384?size=576x768",
       "description": "Mid-weight underwear top made of wool, synthetic, or Capilene",
-      "weight": "6oz",
+      "weight": 6,
       "quantity": 1
     },
     {
@@ -15,7 +15,7 @@
       "category": "Upper Body",
       "image": "https://uploads-ssl.webflow.com/5bdb79da14cac75741aa5bc5/5cbe23d5f58072eed40bc2b3_Melanzana%20Hoodie.001.jpeg",
       "description": "Polyester fleece pullover/expedition weight top of Polartec® 100 or 200, or a wool sweater.",
-      "weight": "12.5oz",
+      "weight": 12.5,
       "quantity": 1
     },
     {
@@ -24,7 +24,7 @@
       "category": "Upper Body",
       "image": "https://www.rei.com/media/051178b6-0a28-4b37-9806-1db59ad2852e?size=576x768",
       "description": "A warm, synthetic jacket-filled jacket that fits over your base layers.",
-      "weight": "12.8oz",
+      "weight": 12.8,
       "quantity": 1
     },
     {
@@ -33,7 +33,7 @@
       "category": "Upper Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw99ef3054/images/hi-res/24142_CTRB.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight, breathable, durable nylon wind shell in either pullover or parka style.",
-      "weight": "4oz",
+      "weight": 4,
       "quantity": 1
     },
     {
@@ -42,7 +42,7 @@
       "category": "Upper Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw81c36043/images/hi-res/85240_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A sturdy, roomy waterproof jacket with a hood.",
-      "weight": "4oz",
+      "weight": 4,
       "quantity": 1
     },
     {
@@ -51,7 +51,7 @@
       "category": "Upper Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw1cdfcadc/images/hi-res/45760_SUPX.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight polyester, wool / Capilene® T- shirt.",
-      "weight": "2.6oz",
+      "weight": 2,
       "quantity": 1
     },
     {
@@ -60,7 +60,7 @@
       "category": "Lower Body",
       "image": "https://outdoorgearlab-mvnab3pwrvp3t0.stackpathdns.com/photos/20/50/326500_9828_L2.jpg",
       "description": "A lightweight polyester, wool / Capilene® T- shirt.",
-      "weight": "5.8oz",
+      "weight": 5,
       "quantity": 1
     },
     {
@@ -69,7 +69,7 @@
       "category": "Lower Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwc63717f2/images/hi-res/82140_FGE.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Expedition-weight bottoms that fit comfortably over the under layer bottoms.",
-      "weight": "11.7oz",
+      "weight": 11.7,
       "quantity": 1
     },
     {
@@ -78,7 +78,7 @@
       "category": "Lower Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw330ea862/images/hi-res/85265_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Nylon shell pants. These should fit comfortably over all lower-body layers.",
-      "weight": "5.4oz",
+      "weight": 5.4,
       "quantity": 1
     },
     {
@@ -87,7 +87,7 @@
       "category": "Lower Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw518cd146/images/hi-res/57021_LKMG.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Loose-fitting nylon athletic/river shorts.",
-      "weight": "7.8oz",
+      "weight": 7.8,
       "quantity": 1
     },
     {
@@ -96,7 +96,7 @@
       "category": "Lower Body",
       "image": "https://www.rei.com/media/c78af9f7-db58-4300-af5f-bdd9b0f7db1d?size=576x768",
       "description": "Optional.",
-      "weight": "3.2oz",
+      "weight": 3.2,
       "quantity": 1
     },
     {
@@ -105,7 +105,7 @@
       "category": "Head, Neck and Hand Layers",
       "image": "https://cdn.shopify.com/s/files/1/0277/0693/products/s21-global-hat-olive-1_1512x.jpg?v=1628275714",
       "description": "To protect ears and face from the sun.",
-      "weight": "3oz",
+      "weight": 3,
       "quantity": 1
     },
     {
@@ -114,7 +114,7 @@
       "category": "Head, Neck and Hand Layers",
       "image": "https://www.rei.com/media/9a1265aa-020a-4f0a-8bcb-bc6531df43d8?size=576x768",
       "description": "Balaclavas are full head and neck coverings that have an opening for the face.",
-      "weight": "1oz",
+      "weight": 1,
       "quantity": 1
     },
     {
@@ -123,7 +123,7 @@
       "category": "Head, Neck and Hand Layers",
       "image": "https://www.rei.com/media/9a21c03b-64ce-44e7-862c-c088ba4b68cb?size=576x768",
       "description": "A hat to to keep you warm at night.",
-      "weight": "1oz",
+      "weight": 1,
       "quantity": 1
     },
     {
@@ -132,7 +132,7 @@
       "category": "Head, Neck and Hand Layers",
       "image": "https://www.rei.com/media/a4deebea-3d49-4171-a714-bdf044ba9f85",
       "description": "Ragg wool or synthetic",
-      "weight": "3oz",
+      "weight": 3,
       "quantity": 1
     },
     {
@@ -141,7 +141,7 @@
       "category": "Packs & Bags",
       "image": "https://www.rei.com/media/7381729b-6f2c-4eae-ae4f-1a461b571ad3",
       "description": "85 liters (or less depending on your trip length/preference)",
-      "weight": "4lbs. 6oz",
+      "weight": 64,
       "quantity": 1
     },
     {
@@ -150,7 +150,7 @@
       "category": "Packs & Bags",
       "image": "https://www.rei.com/media/ae9798b6-1b5a-4b4e-b917-8644ce7521fb",
       "description": "2 or 3 small nylon or mesh sacks for organizing items in your pack.",
-      "weight": "9oz",
+      "weight": 9,
       "quantity": 3
     },
     {
@@ -159,7 +159,7 @@
       "category": "Packs & Bags",
       "image": "https://www.rei.com/media/ef98f4e4-d747-4cbd-8e84-062f0fcfdc9d",
       "description": "A lightweight bag to store your food.",
-      "weight": "8oz",
+      "weight": 8,
       "quantity": 1
     },
     {
@@ -168,7 +168,7 @@
       "category": "Living",
       "image": "https://www.rei.com/media/56b03fff-1b1b-4bba-bb46-63429f9576d6",
       "description": "Backpacking tent (ie Tarptent Double Rainbow)",
-      "weight": "2lbs. 10oz",
+      "weight":42,
       "quantity": 1
     },
     {
@@ -177,7 +177,7 @@
       "category": "Living",
       "image": "https://www.rei.com/media/c3387ec6-922c-421e-8cd3-7b9cbb6c7b93",
       "description": "Lightweight backpacking stove. Spatula, lighter and pot grips should be stored inside.",
-      "weight": "14oz",
+      "weight": 14,
       "quantity": 1
     },
     {
@@ -186,7 +186,7 @@
       "category": "Living",
       "image": "https://www.rei.com/media/f4623a51-3bad-41c1-a715-b05595030221",
       "description": "Depends on the stove",
-      "weight": "2lbs",
+      "weight": 32,
       "quantity": 1
     },
     {

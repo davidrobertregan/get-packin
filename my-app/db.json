@@ -2,12 +2,254 @@
     "gear": [
       {
         "id": 1,
-        "name": "Down Jacket",
-        "category": "upper body",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "description": "Down jacket",
-        "weight": "20oz",
-        "waterproof": false,
+        "name": "Base Layer (Mid-Weight Synthetic)",
+        "category": "Upper Body",
+        "image": "https://www.rei.com/media/f495caff-4959-4d2e-90ab-6c5764366384?size=576x768",
+        "description": "Mid-weight underwear top made of wool, synthetic, or Capilene",
+        "weight": "6oz",
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Middle Layer (Fleece Pullover)",
+        "category": "Upper Body",
+        "image": "https://uploads-ssl.webflow.com/5bdb79da14cac75741aa5bc5/5cbe23d5f58072eed40bc2b3_Melanzana%20Hoodie.001.jpeg",
+        "description": "Polyester fleece pullover/expedition weight top of Polartec® 100 or 200, or a wool sweater.",
+        "weight": "12.5oz",
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "name": "Top Layer (Synthetic Jacket)",
+        "category": "Upper Body",
+        "image": "https://www.rei.com/media/051178b6-0a28-4b37-9806-1db59ad2852e?size=576x768",
+        "description": "A warm, synthetic jacket-filled jacket that fits over your base layers.",
+        "weight": "12.8oz",
+        "quantity": 1
+      },
+      {
+        "id": 4,
+        "name": "Wind Shirt",
+        "category": "Upper Body",
+        "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw99ef3054/images/hi-res/24142_CTRB.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
+        "description": "A lightweight, breathable, durable nylon wind shell in either pullover or parka style.",
+        "weight": "4oz",
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Rain Jacket",
+        "category": "Upper Body",
+        "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw81c36043/images/hi-res/85240_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
+        "description": "A sturdy, roomy waterproof jacket with a hood.",
+        "weight": "4oz",
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "T-Shirt",
+        "category": "Upper Body",
+        "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw1cdfcadc/images/hi-res/45760_SUPX.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
+        "description": "A lightweight polyester, wool / Capilene® T- shirt.",
+        "weight": "2.6oz",
+        "quantity": 1
+      },
+      {
+        "id": 7,
+        "name": "Long Underwear (Mid-Weight Synthetic)",
+        "category": "Lower Body",
+        "image": "https://outdoorgearlab-mvnab3pwrvp3t0.stackpathdns.com/photos/20/50/326500_9828_L2.jpg",
+        "description": "A lightweight polyester, wool / Capilene® T- shirt.",
+        "weight": "5.8oz",
+        "quantity": 1
+      },
+      {
+        "id": 8,
+        "name": "Puffy Pants",
+        "category": "Lower Body",
+        "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwc63717f2/images/hi-res/82140_FGE.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
+        "description": "Expedition-weight bottoms that fit comfortably over the under layer bottoms.",
+        "weight": "11.7oz",
+        "quantity": 1
+      },
+      {
+        "id": 9,
+        "name": "Wind Pants",
+        "category": "Lower Body",
+        "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw330ea862/images/hi-res/85265_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
+        "description": "Nylon shell pants. These should fit comfortably over all lower-body layers.",
+        "weight": "5.4oz",
+        "quantity": 1
+      },
+      {
+        "id": 10,
+        "name": "Nylon Shorts",
+        "category": "Lower Body",
+        "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw518cd146/images/hi-res/57021_LKMG.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
+        "description": "Loose-fitting nylon athletic/river shorts.",
+        "weight": "7.8oz",
+        "quantity": 1
+      },
+      {
+        "id": 11,
+        "name": "Underwear",
+        "category": "Lower Body",
+        "image": "https://www.rei.com/media/c78af9f7-db58-4300-af5f-bdd9b0f7db1d?size=576x768",
+        "description": "Optional.",
+        "weight": "3.2oz",
+        "quantity": 1
+      },
+      {
+        "id": 12,
+        "name": "Baseball Cap/Sun Hat",
+        "category": "Head, Neck and Hand Layers",
+        "image": "https://cdn.shopify.com/s/files/1/0277/0693/products/s21-global-hat-olive-1_1512x.jpg?v=1628275714",
+        "description": "To protect ears and face from the sun.",
+        "weight": "3oz",
+        "quantity": 1
+      },
+      {
+        "id": 13,
+        "name": "Balaclava/Buff",
+        "category": "Head, Neck and Hand Layers",
+        "image": "https://www.rei.com/media/9a1265aa-020a-4f0a-8bcb-bc6531df43d8?size=576x768",
+        "description": "Balaclavas are full head and neck coverings that have an opening for the face.",
+        "weight": "1oz",
+        "quantity": 1
+      },
+      {
+        "id": 14,
+        "name": "Wool or Fleece Hat",
+        "category": "Head, Neck and Hand Layers",
+        "image": "https://www.rei.com/media/9a21c03b-64ce-44e7-862c-c088ba4b68cb?size=576x768",
+        "description": "A hat to to keep you warm at night.",
+        "weight": "1oz",
+        "quantity": 1
+      },
+      {
+        "id": 15,
+        "name": "Gloves",
+        "category": "Head, Neck and Hand Layers",
+        "image": "https://www.rei.com/media/a4deebea-3d49-4171-a714-bdf044ba9f85",
+        "description": "Ragg wool or synthetic",
+        "weight": "3oz",
+        "quantity": 1
+      },
+      {
+        "id": 16,
+        "name": "Backpack",
+        "category": "Packs & Bags",
+        "image": "https://www.rei.com/media/7381729b-6f2c-4eae-ae4f-1a461b571ad3",
+        "description": "85 liters (or less depending on your trip length/preference)",
+        "weight": "4lbs. 6oz",
+        "quantity": 1
+      },
+      {
+        "id": 17,
+        "name": "Small Stuff Sacks",
+        "category": "Packs & Bags",
+        "image": "https://www.rei.com/media/ae9798b6-1b5a-4b4e-b917-8644ce7521fb",
+        "description": "2 or 3 small nylon or mesh sacks for organizing items in your pack.",
+        "weight": "9oz",
+        "quantity": 3
+      },
+      {
+        "id": 18,
+        "name": "Food Zip Bag",
+        "category": "Packs & Bags",
+        "image": "https://www.rei.com/media/ef98f4e4-d747-4cbd-8e84-062f0fcfdc9d",
+        "description": "A lightweight bag to store your food.",
+        "weight": "8oz",
+        "quantity": 1
+      },
+      {
+        "id": 19,
+        "name": "Tent",
+        "category": "Living",
+        "image": "https://www.rei.com/media/56b03fff-1b1b-4bba-bb46-63429f9576d6",
+        "description": "Backpacking tent (ie Tarptent Double Rainbow)",
+        "weight": "2lbs. 10oz",
+        "quantity": 1
+      },
+      {
+        "id": 20,
+        "name": "Camp Stove",
+        "category": "Living",
+        "image": "https://www.rei.com/media/c3387ec6-922c-421e-8cd3-7b9cbb6c7b93",
+        "description": "Lightweight backpacking stove. Spatula, lighter and pot grips should be stored inside.",
+        "weight": "14oz",
+        "quantity": 1
+      },
+      {
+        "id": 21,
+        "name": "Fuel and Fuel Bottles",
+        "category": "Living",
+        "image": "https://www.rei.com/media/f4623a51-3bad-41c1-a715-b05595030221",
+        "description": "Depends on the stove",
+        "weight": "2lbs",
+        "quantity": 1
+      },
+      {
+        "id": 22,
+        "name": "Pan",
+        "category": "Living",
+        "image": "https://www.rei.com/media/8e853d1b-fe35-42c3-9e07-d27610c657b6",
+        "description": "Cooking pan (Frybakes are great for gourmet cooking).",
+        "weight": 20,
+        "quantity": 1
+      },
+      {
+        "id": 23,
+        "name": "Pot",
+        "category": "Living",
+        "image": "https://www.rei.com/media/a8ae454a-a2a6-48a4-9810-a75189806ffd",
+        "description": "Cooking pot",
+        "weight": 19.5,
+        "quantity": 1
+      },
+      {
+        "id": 24,
+        "name": "Trowels or Shovels",
+        "category": "Living",
+        "image": "https://www.rei.com/media/8d538270-f755-4e60-862b-6c8b17f8a1b2",
+        "description": "Leave no trace 💩",
+        "weight": 4,
+        "quantity": 1
+      },
+      {
+        "id": 25,
+        "name": "Maps amd Compass",
+        "category": "Living",
+        "image": "https://www.rei.com/media/4fbd0795-edc1-46f2-b917-98b5bbf21755",
+        "description": "USGS Topos and a good compass",
+        "weight": 4,
+        "quantity": 1
+      },
+      {
+        "id": 26,
+        "name": "Bincoculars",
+        "category": "Living",
+        "image": "https://www.rei.com/media/df844453-8b3b-45bb-ad19-e682d6df3c9e",
+        "description": "They're nice to have!",
+        "weight": 19.5,
+        "quantity": 1
+      },
+      {
+        "id": 27,
+        "name": "First Aid Kit",
+        "category": "Living",
+        "image": "https://www.rei.com/media/20e67850-1d11-437e-8d4d-adb8bf5793e1",
+        "description": "Important to have in the Wilderness",
+        "weight": 8,
+        "quantity": 1
+      }, 
+      {
+        "id": 29,
+        "name": "Equipment repair kit",
+        "category": "Living",
+        "image": "https://www.rei.com/media/67a4c216-6111-43f9-84e5-8c5b0738be5a",
+        "description": "Sometimes stuff breaks",
+        "weight": 3,
         "quantity": 1
       }
     ]

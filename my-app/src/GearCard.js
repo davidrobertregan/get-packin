@@ -1,7 +1,7 @@
 
 function GearCard({gear}) {
     
-    const {name, image, categorygit } = gear
+    const {name, image, category} = gear
     
     // add id router to gear details
     return(

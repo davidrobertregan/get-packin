@@ -168,7 +168,7 @@
       "category": "Living",
       "image": "https://www.rei.com/media/56b03fff-1b1b-4bba-bb46-63429f9576d6",
       "description": "Backpacking tent (ie Tarptent Double Rainbow)",
-      "weight":42,
+      "weight": 42,
       "quantity": 1
     },
     {
@@ -242,7 +242,7 @@
       "description": "Important to have in the Wilderness",
       "weight": 8,
       "quantity": 1
-    }, 
+    },
     {
       "id": 28,
       "name": "Equipment repair kit",
@@ -252,345 +252,345 @@
       "weight": 3,
       "quantity": 1
     },
-      {
-        "id": 29,
-        "name": "Sleeping Bag",
-        "category": "Sleeping Gear",
-        "image": "",
-        "description": "Synthetic-filled bags (Quallofil®, Hollofil®, Polarguard®, etc.) perform well in the variety of conditions we encounter on courses. A bag with approximately 3 pounds of fill rated to 5° or 10° F.",
-        "weight": 48,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 30,
-        "name": "Summit/Compression Pack",
-        "category": "Sleeping Gear",
-        "image": "",
-        "description": "We use the Lowe Attack Summit that doubles as a compression stuff sack for your sleeping bag and a summit pack for day hikes",
-        "weight": 27,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 31,
-        "name": "Plastic Trash Bags",
-        "category": "Sleeping Gear",
-        "image": "",
-        "description": "Heavy-duty lawn and garden bags (33 gallon) to help waterproof your sleeping bag and backpack.",
-        "weight": 2,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 32,
-        "name": "Sleeping Pad",
-        "category": "Sleeping Gear",
-        "image": "",
-        "description": "Should be closed-cell foam and 3/8\" thick. Used for padding and insulation between sleeping bag and ground. We highly recommend and sell self-inflating sleeping mat as one of your pads. Thermarest and Insulmat are great brands.",
-        "weight": 12,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 33,
-        "name": "Insulated Mug",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "20 oz. insulated mugs with lids are preferred.",
-        "weight": 19,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 34,
-        "name": "Bowl",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "A bowl with a snap-on lid is handy.",
-        "weight": 5,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 35,
-        "name": "Spoon",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Lexan spoons are light, durable and popular",
-        "weight": 1,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 36,
-        "name": "Water Bottle",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Wide-mouth liter-size plastic bottle, like Nalgene® bottle.",
-        "weight": 7,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 37,
-        "name": "Lip Balm",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Stick, cream, or tube type moisturizing balm with sun protection factor (SPF) 15 or greater",
-        "weight": 1,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 38,
-        "name": "Sunscreen",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "A 6 ounce tube with sun protection factor (SPF) 15 or greater",
-        "weight": 6,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 39,
-        "name": "Bandana",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "A few of these are always handy.",
-        "weight": 2,
-        "waterproof": false,
-        "quantity": 1
-      },
-      {
-        "id": 40,
-        "name": "Head-Lamp",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Durable and lightweight. Headlamps are popular. Bring spare batteries.",
-        "weight": 4,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 41,
-        "name": "Disposable Lighters",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Use for lighting your camp stove.",
-        "weight": 1,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 42,
-        "name": "Insect Repellent",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "1-2 small bottles. No aerosol spray cans.",
-        "weight": 3,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 43,
-        "name": "Watch",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "A watch with an alarm is a nice feature.",
-        "weight": 3,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 44,
-        "name": "Notepad And Pencil",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "A small, lightweight pad is fine.",
-        "weight": 3,
-        "waterproof": false,
-        "quantity": 1
-      },
-      {
-        "id": 45,
-        "name": "Sunglass Retainer",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Optional. Chums® or Croakies® for keeping track of your glasses or sunglasses.",
-        "weight": 1,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 46,
-        "name": "Sunglasses",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Any good quality sunglasses with 100% UV protection will work fine.",
-        "weight": 1,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 47,
-        "name": "Instant Hand Sanitizer",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "Must have 2 oz. bottles for keeping hands clean.",
-        "weight": 2,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 48,
-        "name": "Pocket Knife",
-        "category": "Miscellaneous Items",
-        "image": "",
-        "description": "One small knife is sufficient; simple Swiss Army knives are popular.",
-        "weight": 2,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 49,
-        "name": "Boots",
-        "category": "Footwear",
-        "image": "",
-        "description": "Sturdy leather heavy backpacking or light mountaineering boots with good ankle support.",
-        "weight": 32,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 50,
-        "name": "Socks",
-        "category": "Footwear",
-        "image": "",
-        "description": "Heavy ragg wool or heavy wool/synthetic blend.",
-        "weight": 1,
-        "waterproof": false,
-        "quantity": 1
-      },
-      {
-        "id": 51,
-        "name": "Liner Socks",
-        "category": "Footwear",
-        "image": "",
-        "description": "Optional. Lightweight wool, synthetic or Capilene® \"wick dry\" socks. You will need at least two pairs if you are using a liner sock/wool sock combination in your hiking boots.",
-        "weight": 1,
-        "waterproof": false,
-        "quantity": 1
-      },
-      {
-        "id": 52,
-        "name": "Gaiters",
-        "category": "Footwear",
-        "image": "",
-        "description": "Knee high, durable.",
-        "weight": 6,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 53,
-        "name": "Camp Shoes",
-        "category": "Footwear",
-        "image": "",
-        "description": "Running, tennis, or cross-training athletic shoes.",
-        "weight": 16,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 54,
-        "name": "Binoculars",
-        "category": "Optional Items",
-        "image": "",
-        "description": "Small travel binoculars work well.",
-        "weight": 10,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 55,
-        "name": "Prescription Glasses And Contact Lenses",
-        "category": "Optional Items",
-        "image": "",
-        "description": "If you wear them, bring a spare pair of glasses or lenses. Contact lens wearers should also bring a pair of glasses as backup. Again, prescription sunglasses are a nice item to have in reserve. ",
-        "weight": 1,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 56,
-        "name": "Water Treatment",
-        "category": "Optional Items",
-        "image": "",
-        "description": "Potable Aqua tablets (hydroperiodide) or Aqua Mira for backcountry water purification. However, if you are sensitive to iodine or chlorine you may need to bring your water filter such as the PUR Scout or Hiker, or the SWEETWATER Guardian.",
-        "weight": 10,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 57,
-        "name": "Vitamins",
-        "category": "Optional Items",
-        "image": "",
-        "description": "Not necessary, but a small quantity of multivitamins is popular among hikers",
-        "weight": 6,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 58,
-        "name": "Book",
-        "category": "Optional Items",
-        "image": "",
-        "description": "A small paperback reading book.",
-        "weight": 16,
-        "waterproof": false,
-        "quantity": 1
-      },
-      {
-        "id": 59,
-        "name": "Trekking Poles",
-        "category": "Optional Items",
-        "image": "",
-        "description": "A sturdy 2-3 section pole for easy packing",
-        "weight": 16,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 60,
-        "name": "Camera",
-        "category": "Optional Items",
-        "image": "",
-        "description": "Lightweight, 35 mm compact cameras are sufficient; bring a protective case. Avoid heavy lenses and elaborate set-ups.",
-        "weight": 16,
-        "waterproof": false,
-        "quantity": 1
-      },
-      {
-        "id": 61,
-        "name": "Backpacker’s Camp Chair",
-        "category": "Optional Items",
-        "image": "",
-        "description": "Crazy Creek or one with Therm-A-Rest fitting.",
-        "weight": 16,
-        "waterproof": true,
-        "quantity": 1
-      },
-      {
-        "id": 62,
-        "name": "Hydration System",
-        "category": "Optional Items",
-        "image": "",
-        "description": "Very handy and popular.",
-        "weight": 8,
-        "waterproof": true,
-        "quantity": 1
-      }
-    ]
-  }
+    {
+      "id": 29,
+      "name": "Sleeping Bag",
+      "category": "Sleeping Gear",
+      "image": "",
+      "description": "Synthetic-filled bags (Quallofil®, Hollofil®, Polarguard®, etc.) perform well in the variety of conditions we encounter on courses. A bag with approximately 3 pounds of fill rated to 5° or 10° F.",
+      "weight": 48,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 30,
+      "name": "Summit/Compression Pack",
+      "category": "Sleeping Gear",
+      "image": "",
+      "description": "We use the Lowe Attack Summit that doubles as a compression stuff sack for your sleeping bag and a summit pack for day hikes",
+      "weight": 27,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 31,
+      "name": "Plastic Trash Bags",
+      "category": "Sleeping Gear",
+      "image": "",
+      "description": "Heavy-duty lawn and garden bags (33 gallon) to help waterproof your sleeping bag and backpack.",
+      "weight": 2,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 32,
+      "name": "Sleeping Pad",
+      "category": "Sleeping Gear",
+      "image": "",
+      "description": "Should be closed-cell foam and 3/8\" thick. Used for padding and insulation between sleeping bag and ground. We highly recommend and sell self-inflating sleeping mat as one of your pads. Thermarest and Insulmat are great brands.",
+      "weight": 12,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 33,
+      "name": "Insulated Mug",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "20 oz. insulated mugs with lids are preferred.",
+      "weight": 19,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 34,
+      "name": "Bowl",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "A bowl with a snap-on lid is handy.",
+      "weight": 5,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 35,
+      "name": "Spoon",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Lexan spoons are light, durable and popular",
+      "weight": 1,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 36,
+      "name": "Water Bottle",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Wide-mouth liter-size plastic bottle, like Nalgene® bottle.",
+      "weight": 7,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 37,
+      "name": "Lip Balm",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Stick, cream, or tube type moisturizing balm with sun protection factor (SPF) 15 or greater",
+      "weight": 1,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 38,
+      "name": "Sunscreen",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "A 6 ounce tube with sun protection factor (SPF) 15 or greater",
+      "weight": 6,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 39,
+      "name": "Bandana",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "A few of these are always handy.",
+      "weight": 2,
+      "waterproof": false,
+      "quantity": 1
+    },
+    {
+      "id": 40,
+      "name": "Head-Lamp",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Durable and lightweight. Headlamps are popular. Bring spare batteries.",
+      "weight": 4,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 41,
+      "name": "Disposable Lighters",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Use for lighting your camp stove.",
+      "weight": 1,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 42,
+      "name": "Insect Repellent",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "1-2 small bottles. No aerosol spray cans.",
+      "weight": 3,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 43,
+      "name": "Watch",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "A watch with an alarm is a nice feature.",
+      "weight": 3,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 44,
+      "name": "Notepad And Pencil",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "A small, lightweight pad is fine.",
+      "weight": 3,
+      "waterproof": false,
+      "quantity": 1
+    },
+    {
+      "id": 45,
+      "name": "Sunglass Retainer",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Optional. Chums® or Croakies® for keeping track of your glasses or sunglasses.",
+      "weight": 1,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 46,
+      "name": "Sunglasses",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Any good quality sunglasses with 100% UV protection will work fine.",
+      "weight": 1,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 47,
+      "name": "Instant Hand Sanitizer",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "Must have 2 oz. bottles for keeping hands clean.",
+      "weight": 2,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 48,
+      "name": "Pocket Knife",
+      "category": "Miscellaneous Items",
+      "image": "",
+      "description": "One small knife is sufficient; simple Swiss Army knives are popular.",
+      "weight": 2,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 49,
+      "name": "Boots",
+      "category": "Footwear",
+      "image": "",
+      "description": "Sturdy leather heavy backpacking or light mountaineering boots with good ankle support.",
+      "weight": 32,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 50,
+      "name": "Socks",
+      "category": "Footwear",
+      "image": "",
+      "description": "Heavy ragg wool or heavy wool/synthetic blend.",
+      "weight": 1,
+      "waterproof": false,
+      "quantity": 1
+    },
+    {
+      "id": 51,
+      "name": "Liner Socks",
+      "category": "Footwear",
+      "image": "",
+      "description": "Optional. Lightweight wool, synthetic or Capilene® \"wick dry\" socks. You will need at least two pairs if you are using a liner sock/wool sock combination in your hiking boots.",
+      "weight": 1,
+      "waterproof": false,
+      "quantity": 1
+    },
+    {
+      "id": 52,
+      "name": "Gaiters",
+      "category": "Footwear",
+      "image": "",
+      "description": "Knee high, durable.",
+      "weight": 6,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 53,
+      "name": "Camp Shoes",
+      "category": "Footwear",
+      "image": "",
+      "description": "Running, tennis, or cross-training athletic shoes.",
+      "weight": 16,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 54,
+      "name": "Binoculars",
+      "category": "Optional Items",
+      "image": "",
+      "description": "Small travel binoculars work well.",
+      "weight": 10,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 55,
+      "name": "Prescription Glasses And Contact Lenses",
+      "category": "Optional Items",
+      "image": "",
+      "description": "If you wear them, bring a spare pair of glasses or lenses. Contact lens wearers should also bring a pair of glasses as backup. Again, prescription sunglasses are a nice item to have in reserve. ",
+      "weight": 1,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 56,
+      "name": "Water Treatment",
+      "category": "Optional Items",
+      "image": "",
+      "description": "Potable Aqua tablets (hydroperiodide) or Aqua Mira for backcountry water purification. However, if you are sensitive to iodine or chlorine you may need to bring your water filter such as the PUR Scout or Hiker, or the SWEETWATER Guardian.",
+      "weight": 10,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 57,
+      "name": "Vitamins",
+      "category": "Optional Items",
+      "image": "",
+      "description": "Not necessary, but a small quantity of multivitamins is popular among hikers",
+      "weight": 6,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 58,
+      "name": "Book",
+      "category": "Optional Items",
+      "image": "",
+      "description": "A small paperback reading book.",
+      "weight": 16,
+      "waterproof": false,
+      "quantity": 1
+    },
+    {
+      "id": 59,
+      "name": "Trekking Poles",
+      "category": "Optional Items",
+      "image": "",
+      "description": "A sturdy 2-3 section pole for easy packing",
+      "weight": 16,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 60,
+      "name": "Camera",
+      "category": "Optional Items",
+      "image": "",
+      "description": "Lightweight, 35 mm compact cameras are sufficient; bring a protective case. Avoid heavy lenses and elaborate set-ups.",
+      "weight": 16,
+      "waterproof": false,
+      "quantity": 1
+    },
+    {
+      "id": 61,
+      "name": "Backpacker’s Camp Chair",
+      "category": "Optional Items",
+      "image": "",
+      "description": "Crazy Creek or one with Therm-A-Rest fitting.",
+      "weight": 16,
+      "waterproof": true,
+      "quantity": 1
+    },
+    {
+      "id": 62,
+      "name": "Hydration System",
+      "category": "Optional Items",
+      "image": "",
+      "description": "Very handy and popular.",
+      "weight": 8,
+      "waterproof": true,
+      "quantity": 1
+    }
+  ]
+}

@@ -14,10 +14,15 @@ function GearContainer() {
 
     console.log(gear)
 
+    function handleAddGear() {
+        console.log('TEST!')
+    }
+
     return (
         <div>
+            <AddGearForm onAddGear={handleAddGear}/>
             <GearList gear={gear}/>
-            {/* <AddGearForm /> */}
+            
         </div>
     )
 }

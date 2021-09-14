@@ -483,7 +483,7 @@
     {
       "id": 49,
       "name": "Boots",
-      "category": "Footwear",
+      "category": "Clothing",
       "image": "",
       "description": "Sturdy leather heavy backpacking or light mountaineering boots with good ankle support.",
       "weight": 32,
@@ -493,7 +493,7 @@
     {
       "id": 50,
       "name": "Socks",
-      "category": "Footwear",
+      "category": "Clothing",
       "image": "",
       "description": "Heavy ragg wool or heavy wool/synthetic blend.",
       "weight": 1,
@@ -503,7 +503,7 @@
     {
       "id": 51,
       "name": "Liner Socks",
-      "category": "Footwear",
+      "category": "Clothing",
       "image": "",
       "description": "Optional. Lightweight wool, synthetic or Capilene® \"wick dry\" socks. You will need at least two pairs if you are using a liner sock/wool sock combination in your hiking boots.",
       "weight": 1,
@@ -513,7 +513,7 @@
     {
       "id": 52,
       "name": "Gaiters",
-      "category": "Footwear",
+      "category": "Clothing",
       "image": "",
       "description": "Knee high, durable.",
       "weight": 6,
@@ -523,7 +523,7 @@
     {
       "id": 53,
       "name": "Camp Shoes",
-      "category": "Footwear",
+      "category": "Clothing",
       "image": "",
       "description": "Running, tennis, or cross-training athletic shoes.",
       "weight": 16,

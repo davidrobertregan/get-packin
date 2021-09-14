@@ -2,10 +2,11 @@ import React, { useState } from "react"
 import GearCard from "./GearCard"
 
 
-function GearList({ gear, onDelete }) {
+function GearList({ gear, onDelete, onPackUpdate }) {
     const [viewPacked, setViewPacked] = useState(false)
     
-    const gearCards = filteredGear().map(item => <GearCard key={item.id} gear={item} onDelete={onDelete}/>)
+    const gearCards = filteredGear().map(item => 
+    <GearCard key={item.id} gear={item} onDelete={onDelete} onPackUpdate={onPackUpdate}/>)
 
     function filteredGear() {
         if(viewPacked === true) {
@@ -19,7 +20,7 @@ function GearList({ gear, onDelete }) {
     function handlePackedView () {
         setViewPacked(viewPacked => !viewPacked)
     }
-    
+
     return (
         <div>
             <div>

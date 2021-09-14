@@ -27,7 +27,7 @@
       "image": "https://www.rei.com/media/051178b6-0a28-4b37-9806-1db59ad2852e?size=576x768",
       "description": "A warm, synthetic jacket-filled jacket that fits over your base layers.",
       "weight": 12.8,
-      "packed": false,
+      "packed": true,
       "quantity": 1
     },
     {
@@ -157,7 +157,7 @@
       "image": "https://www.rei.com/media/7381729b-6f2c-4eae-ae4f-1a461b571ad3",
       "description": "85 liters (or less depending on your trip length/preference)",
       "weight": 64,
-      "packed": false,
+      "packed": true,
       "quantity": 1
     },
     {

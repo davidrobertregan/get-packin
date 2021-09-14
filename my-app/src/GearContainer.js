@@ -26,14 +26,19 @@ function GearContainer() {
     function handleCategory(e) {
         setFilterCategory(e.target.name)
     }
-
+    
+    function updateGearItem(updatedItem) {
+        const updatedGear = gear.map(item => item.id === updatedItem.id ? updatedItem : item);
+        setGear(updatedGear);
+    }
+  
     const filteredGear = gear.filter(item => filterCategory === "All Items" ? true : item.category === filterCategory)
 
     return (
         <div>
             <AddGearForm onAddGear={handleAddGear}/>
             <SortGear filterCategory={handleCategory}/>
-            <GearList gear={filteredGear} onDelete={handleDelete}/>    
+            <GearList gear={filteredGear} onDelete={handleDelete} onPackUpdate={updateGearItem}/>    
         </div>
     )
 }

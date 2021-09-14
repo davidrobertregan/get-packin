@@ -1,7 +1,7 @@
 
-function GearCard({gear, onDelete}) {
+function GearCard({gear, onDelete, onPackUpdate}) {
     
-    const {name, image, category, id} = gear
+    const {name, image, category, id, packed} = gear
     
     function handleDelete() {
         fetch(`http://localhost:3000/gear/${id}`, {
@@ -11,6 +11,22 @@ function GearCard({gear, onDelete}) {
         .then(() => onDelete(gear));
     }
 
+    function handlePackClick() {
+        const updatedPack = {
+            packed: !packed
+        }
+        fetch(`http://localhost:3000/gear/${id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(updatedPack),
+        })
+        .then((r) => r.json())
+        .then(onPackUpdate);
+  
+    }
+
     return(
         <div className="gear-card">
             <h4>{name}</h4>
@@ -18,7 +34,7 @@ function GearCard({gear, onDelete}) {
                 <img src={image} style={{width: '150px'}}/>
             </div>
                 <p>{category}</p>
-            <button>
+            <button onClick={handlePackClick}>
                 Pack / Unpack
             </button>
             <button onClick={handleDelete}>

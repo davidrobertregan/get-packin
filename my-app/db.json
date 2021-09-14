@@ -7,6 +7,7 @@
       "image": "https://www.rei.com/media/f495caff-4959-4d2e-90ab-6c5764366384?size=576x768",
       "description": "Mid-weight underwear top made of wool, synthetic, or Capilene",
       "weight": 6,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -16,6 +17,7 @@
       "image": "https://uploads-ssl.webflow.com/5bdb79da14cac75741aa5bc5/5cbe23d5f58072eed40bc2b3_Melanzana%20Hoodie.001.jpeg",
       "description": "Polyester fleece pullover/expedition weight top of Polartec® 100 or 200, or a wool sweater.",
       "weight": 12.5,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -25,6 +27,7 @@
       "image": "https://www.rei.com/media/051178b6-0a28-4b37-9806-1db59ad2852e?size=576x768",
       "description": "A warm, synthetic jacket-filled jacket that fits over your base layers.",
       "weight": 12.8,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -34,6 +37,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw99ef3054/images/hi-res/24142_CTRB.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight, breathable, durable nylon wind shell in either pullover or parka style.",
       "weight": 4,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -43,6 +47,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw81c36043/images/hi-res/85240_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A sturdy, roomy waterproof jacket with a hood.",
       "weight": 4,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -52,6 +57,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw1cdfcadc/images/hi-res/45760_SUPX.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight polyester, wool / Capilene® T- shirt.",
       "weight": 2,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -61,6 +67,7 @@
       "image": "https://outdoorgearlab-mvnab3pwrvp3t0.stackpathdns.com/photos/20/50/326500_9828_L2.jpg",
       "description": "A lightweight polyester, wool / Capilene® T- shirt.",
       "weight": 5,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -70,6 +77,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwc63717f2/images/hi-res/82140_FGE.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Expedition-weight bottoms that fit comfortably over the under layer bottoms.",
       "weight": 11.7,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -79,6 +87,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw330ea862/images/hi-res/85265_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Nylon shell pants. These should fit comfortably over all lower-body layers.",
       "weight": 5.4,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -88,6 +97,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw518cd146/images/hi-res/57021_LKMG.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Loose-fitting nylon athletic/river shorts.",
       "weight": 7.8,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -97,6 +107,7 @@
       "image": "https://www.rei.com/media/c78af9f7-db58-4300-af5f-bdd9b0f7db1d?size=576x768",
       "description": "Optional.",
       "weight": 3.2,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -106,6 +117,7 @@
       "image": "https://cdn.shopify.com/s/files/1/0277/0693/products/s21-global-hat-olive-1_1512x.jpg?v=1628275714",
       "description": "To protect ears and face from the sun.",
       "weight": 3,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -115,6 +127,7 @@
       "image": "https://www.rei.com/media/9a1265aa-020a-4f0a-8bcb-bc6531df43d8?size=576x768",
       "description": "Balaclavas are full head and neck coverings that have an opening for the face.",
       "weight": 1,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -124,6 +137,7 @@
       "image": "https://www.rei.com/media/9a21c03b-64ce-44e7-862c-c088ba4b68cb?size=576x768",
       "description": "A hat to to keep you warm at night.",
       "weight": 1,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -133,6 +147,7 @@
       "image": "https://www.rei.com/media/a4deebea-3d49-4171-a714-bdf044ba9f85",
       "description": "Ragg wool or synthetic",
       "weight": 3,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -142,6 +157,7 @@
       "image": "https://www.rei.com/media/7381729b-6f2c-4eae-ae4f-1a461b571ad3",
       "description": "85 liters (or less depending on your trip length/preference)",
       "weight": 64,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -151,6 +167,7 @@
       "image": "https://www.rei.com/media/ae9798b6-1b5a-4b4e-b917-8644ce7521fb",
       "description": "2 or 3 small nylon or mesh sacks for organizing items in your pack.",
       "weight": 9,
+      "packed": false,
       "quantity": 3
     },
     {
@@ -160,6 +177,7 @@
       "image": "https://www.rei.com/media/ef98f4e4-d747-4cbd-8e84-062f0fcfdc9d",
       "description": "A lightweight bag to store your food.",
       "weight": 8,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -169,6 +187,7 @@
       "image": "https://www.rei.com/media/56b03fff-1b1b-4bba-bb46-63429f9576d6",
       "description": "Backpacking tent (ie Tarptent Double Rainbow)",
       "weight": 42,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -178,6 +197,7 @@
       "image": "https://www.rei.com/media/c3387ec6-922c-421e-8cd3-7b9cbb6c7b93",
       "description": "Lightweight backpacking stove. Spatula, lighter and pot grips should be stored inside.",
       "weight": 14,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -187,6 +207,7 @@
       "image": "https://www.rei.com/media/f4623a51-3bad-41c1-a715-b05595030221",
       "description": "Depends on the stove",
       "weight": 32,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -196,6 +217,7 @@
       "image": "https://www.rei.com/media/8e853d1b-fe35-42c3-9e07-d27610c657b6",
       "description": "Cooking pan (Frybakes are great for gourmet cooking).",
       "weight": 20,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -205,6 +227,7 @@
       "image": "https://www.rei.com/media/a8ae454a-a2a6-48a4-9810-a75189806ffd",
       "description": "Cooking pot",
       "weight": 19.5,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -214,6 +237,7 @@
       "image": "https://www.rei.com/media/8d538270-f755-4e60-862b-6c8b17f8a1b2",
       "description": "Leave no trace 💩",
       "weight": 4,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -223,6 +247,7 @@
       "image": "https://www.rei.com/media/4fbd0795-edc1-46f2-b917-98b5bbf21755",
       "description": "USGS Topos and a good compass",
       "weight": 4,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -232,6 +257,7 @@
       "image": "https://www.rei.com/media/df844453-8b3b-45bb-ad19-e682d6df3c9e",
       "description": "They're nice to have!",
       "weight": 19.5,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -241,6 +267,7 @@
       "image": "https://www.rei.com/media/20e67850-1d11-437e-8d4d-adb8bf5793e1",
       "description": "Important to have in the Wilderness",
       "weight": 8,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -250,6 +277,7 @@
       "image": "https://www.rei.com/media/67a4c216-6111-43f9-84e5-8c5b0738be5a",
       "description": "Sometimes stuff breaks",
       "weight": 3,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -259,7 +287,7 @@
       "image": "",
       "description": "Synthetic-filled bags (Quallofil®, Hollofil®, Polarguard®, etc.) perform well in the variety of conditions we encounter on courses. A bag with approximately 3 pounds of fill rated to 5° or 10° F.",
       "weight": 48,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -269,7 +297,7 @@
       "image": "",
       "description": "We use the Lowe Attack Summit that doubles as a compression stuff sack for your sleeping bag and a summit pack for day hikes",
       "weight": 27,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -279,7 +307,7 @@
       "image": "",
       "description": "Heavy-duty lawn and garden bags (33 gallon) to help waterproof your sleeping bag and backpack.",
       "weight": 2,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -289,7 +317,7 @@
       "image": "",
       "description": "Should be closed-cell foam and 3/8\" thick. Used for padding and insulation between sleeping bag and ground. We highly recommend and sell self-inflating sleeping mat as one of your pads. Thermarest and Insulmat are great brands.",
       "weight": 12,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -299,7 +327,7 @@
       "image": "",
       "description": "20 oz. insulated mugs with lids are preferred.",
       "weight": 19,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -309,7 +337,7 @@
       "image": "",
       "description": "A bowl with a snap-on lid is handy.",
       "weight": 5,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -319,7 +347,7 @@
       "image": "",
       "description": "Lexan spoons are light, durable and popular",
       "weight": 1,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -329,7 +357,7 @@
       "image": "",
       "description": "Wide-mouth liter-size plastic bottle, like Nalgene® bottle.",
       "weight": 7,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -339,7 +367,7 @@
       "image": "",
       "description": "Stick, cream, or tube type moisturizing balm with sun protection factor (SPF) 15 or greater",
       "weight": 1,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -349,7 +377,7 @@
       "image": "",
       "description": "A 6 ounce tube with sun protection factor (SPF) 15 or greater",
       "weight": 6,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -359,7 +387,7 @@
       "image": "",
       "description": "A few of these are always handy.",
       "weight": 2,
-      "waterproof": false,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -369,7 +397,7 @@
       "image": "",
       "description": "Durable and lightweight. Headlamps are popular. Bring spare batteries.",
       "weight": 4,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -379,7 +407,7 @@
       "image": "",
       "description": "Use for lighting your camp stove.",
       "weight": 1,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -389,7 +417,7 @@
       "image": "",
       "description": "1-2 small bottles. No aerosol spray cans.",
       "weight": 3,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -399,7 +427,7 @@
       "image": "",
       "description": "A watch with an alarm is a nice feature.",
       "weight": 3,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -409,7 +437,7 @@
       "image": "",
       "description": "A small, lightweight pad is fine.",
       "weight": 3,
-      "waterproof": false,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -419,7 +447,7 @@
       "image": "",
       "description": "Optional. Chums® or Croakies® for keeping track of your glasses or sunglasses.",
       "weight": 1,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -429,7 +457,7 @@
       "image": "",
       "description": "Any good quality sunglasses with 100% UV protection will work fine.",
       "weight": 1,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -439,7 +467,7 @@
       "image": "",
       "description": "Must have 2 oz. bottles for keeping hands clean.",
       "weight": 2,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -449,7 +477,7 @@
       "image": "",
       "description": "One small knife is sufficient; simple Swiss Army knives are popular.",
       "weight": 2,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -459,7 +487,7 @@
       "image": "",
       "description": "Sturdy leather heavy backpacking or light mountaineering boots with good ankle support.",
       "weight": 32,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -469,7 +497,7 @@
       "image": "",
       "description": "Heavy ragg wool or heavy wool/synthetic blend.",
       "weight": 1,
-      "waterproof": false,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -479,7 +507,7 @@
       "image": "",
       "description": "Optional. Lightweight wool, synthetic or Capilene® \"wick dry\" socks. You will need at least two pairs if you are using a liner sock/wool sock combination in your hiking boots.",
       "weight": 1,
-      "waterproof": false,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -489,7 +517,7 @@
       "image": "",
       "description": "Knee high, durable.",
       "weight": 6,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -499,7 +527,7 @@
       "image": "",
       "description": "Running, tennis, or cross-training athletic shoes.",
       "weight": 16,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -509,7 +537,7 @@
       "image": "",
       "description": "Small travel binoculars work well.",
       "weight": 10,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -519,7 +547,7 @@
       "image": "",
       "description": "If you wear them, bring a spare pair of glasses or lenses. Contact lens wearers should also bring a pair of glasses as backup. Again, prescription sunglasses are a nice item to have in reserve. ",
       "weight": 1,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -529,7 +557,7 @@
       "image": "",
       "description": "Potable Aqua tablets (hydroperiodide) or Aqua Mira for backcountry water purification. However, if you are sensitive to iodine or chlorine you may need to bring your water filter such as the PUR Scout or Hiker, or the SWEETWATER Guardian.",
       "weight": 10,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -539,7 +567,7 @@
       "image": "",
       "description": "Not necessary, but a small quantity of multivitamins is popular among hikers",
       "weight": 6,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -549,7 +577,7 @@
       "image": "",
       "description": "A small paperback reading book.",
       "weight": 16,
-      "waterproof": false,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -559,7 +587,7 @@
       "image": "",
       "description": "A sturdy 2-3 section pole for easy packing",
       "weight": 16,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -569,7 +597,7 @@
       "image": "",
       "description": "Lightweight, 35 mm compact cameras are sufficient; bring a protective case. Avoid heavy lenses and elaborate set-ups.",
       "weight": 16,
-      "waterproof": false,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -579,7 +607,7 @@
       "image": "",
       "description": "Crazy Creek or one with Therm-A-Rest fitting.",
       "weight": 16,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     },
     {
@@ -589,7 +617,7 @@
       "image": "",
       "description": "Very handy and popular.",
       "weight": 8,
-      "waterproof": true,
+      "packed": false,
       "quantity": 1
     }
   ]

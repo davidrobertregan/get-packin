@@ -14,14 +14,19 @@ function GearContainer() {
 
     console.log(gear)
 
-    function handleAddGear() {
-        console.log('TEST!')
+    function handleAddGear(newGear) {
+        setGear([...gear, newGear])
     }
 
+    function handleDelete(deletedGear) {
+        const updatedGear = gear.filter(item => item.id !== deletedGear.id)
+        setGear(updatedGear)
+      }
+    
     return (
         <div>
             <AddGearForm onAddGear={handleAddGear}/>
-            <GearList gear={gear}/>
+            <GearList gear={gear} onDelete={handleDelete}/>
             
         </div>
     )

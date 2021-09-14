@@ -1,9 +1,18 @@
 
-function GearCard({gear}) {
+function GearCard({gear, onDelete}) {
     
-    const {name, image, category} = gear
+    const {name, image, category, id} = gear
     
-    // add id router to gear details
+    function handleDelete() {
+        fetch(`http://localhost:3000/gear/${id}`, {
+            method: "DELETE"
+        })
+        .then(resp => resp.json())
+        .then(() => {
+          onDelete(gear);
+        });
+      }
+
     return(
         <div className="gear-card">
             <h4>{name}</h4>
@@ -13,6 +22,9 @@ function GearCard({gear}) {
                 <p>{category}</p>
             <button>
                 Pack / Unpack
+            </button>
+            <button onClick={handleDelete}>
+                Remove Gear
             </button>
         </div>
     )

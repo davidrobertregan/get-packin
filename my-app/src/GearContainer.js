@@ -22,12 +22,13 @@ function GearContainer() {
         const updatedGear = gear.filter(item => item.id !== deletedGear.id)
         setGear(updatedGear)
       }
+
+    
     
     return (
         <div>
             <AddGearForm onAddGear={handleAddGear}/>
-            <GearList gear={gear} onDelete={handleDelete}/>
-            
+            <GearList gear={gear} onDelete={handleDelete}/>    
         </div>
     )
 }

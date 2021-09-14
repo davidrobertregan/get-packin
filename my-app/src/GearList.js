@@ -19,11 +19,11 @@ function GearList({ gear, onDelete }) {
     function handlePackedView () {
         setViewPacked(viewPacked => !viewPacked)
     }
-   console.log(viewPacked)
-
+    
     return (
         <div>
             <div>
+                <h3>View Items</h3>
                 <button onClick={handlePackedView}>Packed/Unpacked</button>
             </div>
             <div id="gear-list">

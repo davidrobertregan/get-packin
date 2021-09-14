@@ -1,18 +1,18 @@
 import { useEffect, useState } from 'react'
 import GearList from "./GearList"
 import AddGearForm from "./AddGearForm"
+import SortGear from "./SortGear"
 
 function GearContainer() {
 
     const [gear, setGear] = useState([])
+    const [filterCategory, setFilterCategory] =useState("All Items")
 
     useEffect(() => {
         fetch('http://localhost:3000/gear')
         .then(resp => resp.json())
         .then(data => setGear(data))
     }, [])
-
-    console.log(gear)
 
     function handleAddGear(newGear) {
         setGear([...gear, newGear])
@@ -23,12 +23,17 @@ function GearContainer() {
         setGear(updatedGear)
       }
 
-    
-    
+    function handleCategory(e) {
+        setFilterCategory(e.target.name)
+    }
+
+    const filteredGear = gear.filter(item => filterCategory === "All Items" ? true : item.category === filterCategory)
+
     return (
         <div>
             <AddGearForm onAddGear={handleAddGear}/>
-            <GearList gear={gear} onDelete={handleDelete}/>    
+            <SortGear filterCategory={handleCategory}/>
+            <GearList gear={filteredGear} onDelete={handleDelete}/>    
         </div>
     )
 }

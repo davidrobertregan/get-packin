@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Base Layer (Mid-Weight Synthetic)",
-      "category": "Upper Body",
+      "category": "Clothing",
       "image": "https://www.rei.com/media/f495caff-4959-4d2e-90ab-6c5764366384?size=576x768",
       "description": "Mid-weight underwear top made of wool, synthetic, or Capilene",
       "weight": 6,
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Middle Layer (Fleece Pullover)",
-      "category": "Upper Body",
+      "category": "Clothing",
       "image": "https://uploads-ssl.webflow.com/5bdb79da14cac75741aa5bc5/5cbe23d5f58072eed40bc2b3_Melanzana%20Hoodie.001.jpeg",
       "description": "Polyester fleece pullover/expedition weight top of Polartec® 100 or 200, or a wool sweater.",
       "weight": 12.5,
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Top Layer (Synthetic Jacket)",
-      "category": "Upper Body",
+      "category": "Clothing",
       "image": "https://www.rei.com/media/051178b6-0a28-4b37-9806-1db59ad2852e?size=576x768",
       "description": "A warm, synthetic jacket-filled jacket that fits over your base layers.",
       "weight": 12.8,
@@ -33,7 +33,7 @@
     {
       "id": 4,
       "name": "Wind Shirt",
-      "category": "Upper Body",
+      "category": "Clothing",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw99ef3054/images/hi-res/24142_CTRB.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight, breathable, durable nylon wind shell in either pullover or parka style.",
       "weight": 4,
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "name": "Rain Jacket",
+      "name": "Clothing",
       "category": "Upper Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw81c36043/images/hi-res/85240_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A sturdy, roomy waterproof jacket with a hood.",
@@ -52,7 +52,7 @@
     },
     {
       "id": 6,
-      "name": "T-Shirt",
+      "name": "Clothing",
       "category": "Upper Body",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw1cdfcadc/images/hi-res/45760_SUPX.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight polyester, wool / Capilene® T- shirt.",
@@ -63,7 +63,7 @@
     {
       "id": 7,
       "name": "Long Underwear (Mid-Weight Synthetic)",
-      "category": "Lower Body",
+      "category": "Clothing",
       "image": "https://outdoorgearlab-mvnab3pwrvp3t0.stackpathdns.com/photos/20/50/326500_9828_L2.jpg",
       "description": "A lightweight polyester, wool / Capilene® T- shirt.",
       "weight": 5,
@@ -73,7 +73,7 @@
     {
       "id": 8,
       "name": "Puffy Pants",
-      "category": "Lower Body",
+      "category": "Clothing",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwc63717f2/images/hi-res/82140_FGE.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Expedition-weight bottoms that fit comfortably over the under layer bottoms.",
       "weight": 11.7,
@@ -83,7 +83,7 @@
     {
       "id": 9,
       "name": "Wind Pants",
-      "category": "Lower Body",
+      "category": "Clothing",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw330ea862/images/hi-res/85265_BLK.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Nylon shell pants. These should fit comfortably over all lower-body layers.",
       "weight": 5.4,
@@ -93,7 +93,7 @@
     {
       "id": 10,
       "name": "Nylon Shorts",
-      "category": "Lower Body",
+      "category": "Clothing",
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw518cd146/images/hi-res/57021_LKMG.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "Loose-fitting nylon athletic/river shorts.",
       "weight": 7.8,
@@ -103,7 +103,7 @@
     {
       "id": 11,
       "name": "Underwear",
-      "category": "Lower Body",
+      "category": "Clothing",
       "image": "https://www.rei.com/media/c78af9f7-db58-4300-af5f-bdd9b0f7db1d?size=576x768",
       "description": "Optional.",
       "weight": 3.2,
@@ -113,7 +113,7 @@
     {
       "id": 12,
       "name": "Baseball Cap/Sun Hat",
-      "category": "Head, Neck and Hand Layers",
+      "category": "Clothing",
       "image": "https://cdn.shopify.com/s/files/1/0277/0693/products/s21-global-hat-olive-1_1512x.jpg?v=1628275714",
       "description": "To protect ears and face from the sun.",
       "weight": 3,
@@ -123,7 +123,7 @@
     {
       "id": 13,
       "name": "Balaclava/Buff",
-      "category": "Head, Neck and Hand Layers",
+      "category": "Clothing",
       "image": "https://www.rei.com/media/9a1265aa-020a-4f0a-8bcb-bc6531df43d8?size=576x768",
       "description": "Balaclavas are full head and neck coverings that have an opening for the face.",
       "weight": 1,
@@ -133,7 +133,7 @@
     {
       "id": 14,
       "name": "Wool or Fleece Hat",
-      "category": "Head, Neck and Hand Layers",
+      "category": "Clothing",
       "image": "https://www.rei.com/media/9a21c03b-64ce-44e7-862c-c088ba4b68cb?size=576x768",
       "description": "A hat to to keep you warm at night.",
       "weight": 1,
@@ -143,7 +143,7 @@
     {
       "id": 15,
       "name": "Gloves",
-      "category": "Head, Neck and Hand Layers",
+      "category": "Clothing",
       "image": "https://www.rei.com/media/a4deebea-3d49-4171-a714-bdf044ba9f85",
       "description": "Ragg wool or synthetic",
       "weight": 3,

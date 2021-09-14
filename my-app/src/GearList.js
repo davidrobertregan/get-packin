@@ -5,13 +5,22 @@ import GearCard from "./GearCard"
 function GearList({ gear, onDelete }) {
     const [viewPacked, setViewPacked] = useState(false)
     
-    const gearCards = gear.map(item => <GearCard key={item.id} gear={item} onDelete={onDelete}/>)
+    const gearCards = filteredGear().map(item => <GearCard key={item.id} gear={item} onDelete={onDelete}/>)
 
-    const unpackedGear = gear.filter(item => item.packed !== true)
-    console.log(unpackedGear)
+    function filteredGear() {
+        if(viewPacked === true) {
+        return gear.filter(item => item.packed !== false)
+        }
+        else { 
+            return gear.filter(item => item.packed !== true)
+        }
+    }
+    
+    // const unpackedGear = gear.filter(item => item.packed !== true)
+    // console.log(unpackedGear)
 
-    const packedGear = gear.filter(item => item.packed !== false)
-    console.log(packedGear)
+    // const packedGear = gear.filter(item => item.packed !== false)
+    // console.log(packedGear)
 
     function handlePackedView () {
         setViewPacked(viewPacked => !viewPacked)

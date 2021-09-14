@@ -1,7 +1,7 @@
 
 function GearCard({gear}) {
     
-    const {name, image} = gear
+    const {name, image, categorygit } = gear
     
     // add id router to gear details
     return(
@@ -10,6 +10,7 @@ function GearCard({gear}) {
             <div>
                 <img src={image} style={{width: '150px'}}/>
             </div>
+                <p>{category}</p>
             <button>
                 Pack / Unpack
             </button>

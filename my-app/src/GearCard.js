@@ -8,10 +8,8 @@ function GearCard({gear, onDelete}) {
             method: "DELETE"
         })
         .then(resp => resp.json())
-        .then(() => {
-          onDelete(gear);
-        });
-      }
+        .then(() => onDelete(gear));
+    }
 
     return(
         <div className="gear-card">

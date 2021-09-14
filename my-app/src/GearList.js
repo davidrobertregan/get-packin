@@ -15,12 +15,6 @@ function GearList({ gear, onDelete }) {
             return gear.filter(item => item.packed !== true)
         }
     }
-    
-    // const unpackedGear = gear.filter(item => item.packed !== true)
-    // console.log(unpackedGear)
-
-    // const packedGear = gear.filter(item => item.packed !== false)
-    // console.log(packedGear)
 
     function handlePackedView () {
         setViewPacked(viewPacked => !viewPacked)

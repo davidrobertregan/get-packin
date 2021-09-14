@@ -24,8 +24,9 @@ function AddGearForm({ onAddGear }) {
           category: formData.category,
           image: formData.image,
           description: formData.description,
-          weight: formData.weight,
-          quantitiy:1
+          weight: parseInt(formData.weight),
+          quantitiy: 1,
+          packed: false
         };
     
         fetch("http://localhost:3000/gear", {

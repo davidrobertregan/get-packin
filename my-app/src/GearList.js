@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import GearCard from "./GearCard"
 
-
 function GearList({ gear, onDelete, onPackUpdate }) {
     const [viewPacked, setViewPacked] = useState(false)
     

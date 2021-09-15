@@ -1,7 +1,8 @@
 import './App.css';
 import Header from "./Header"
-import GearContainer from './GearContainer';
-import ItemDetails from './ItemDetails';
+import GearContainer from './GearContainer'
+
+//test for branch
 
 function App() {
   return (

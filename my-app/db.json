@@ -27,7 +27,7 @@
       "image": "https://www.rei.com/media/051178b6-0a28-4b37-9806-1db59ad2852e?size=576x768",
       "description": "A warm, synthetic jacket-filled jacket that fits over your base layers.",
       "weight": 12.8,
-      "packed": false,
+      "packed": true,
       "quantity": 1
     },
     {
@@ -37,7 +37,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw99ef3054/images/hi-res/24142_CTRB.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight, breathable, durable nylon wind shell in either pullover or parka style.",
       "weight": 4,
-      "packed": false,
+      "packed": true,
       "quantity": 1
     },
     {
@@ -327,7 +327,7 @@
       "image": "https://www.rei.com/media/4a8d0df7-17e0-4b68-a1bd-7fd45ab26086",
       "description": "20 oz. insulated mugs with lids are preferred.",
       "weight": 19,
-      "packed": false,
+      "packed": true,
       "quantity": 1
     },
     {

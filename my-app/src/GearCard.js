@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function GearCard({gear, onDelete, onPackUpdate}) {
     
@@ -31,7 +32,9 @@ function GearCard({gear, onDelete, onPackUpdate}) {
         <div className="gear-card">
             <h4>{name}</h4>
             <div>
+              <Link to={`/gear/${id}`}>
                 <img src={image} style={{width: '150px'}}/>
+              </Link>    
             </div>
                 <p>{category}</p>
             <button onClick={handlePackClick}>

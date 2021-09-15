@@ -3,6 +3,7 @@ import GearList from "./GearList"
 import AddGearForm from "./AddGearForm"
 import SortGear from "./SortGear"
 import { Route, Switch } from 'react-router-dom';
+import ItemDetails from './ItemDetails';
 
 function GearContainer() {
 
@@ -38,11 +39,11 @@ function GearContainer() {
     return (
         <div>
         <Switch>
+          <Route exact path="/gear/new">
+            <AddGearForm onAddGear={handleAddGear}/>
+          </Route>
           <Route path="/gear/:id">
             <ItemDetails />
-          </Route>
-          <Route path="gear/new">
-            <AddGearForm onAddGear={handleAddGear}/>
           </Route>
           <Route path="/">
             <SortGear filterCategory={handleCategory}/>

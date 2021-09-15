@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "./Header"
 import GearContainer from './GearContainer'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 //test for branch
 

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import GearList from "./GearList"
 import AddGearForm from "./AddGearForm"
 import SortGear from "./SortGear"
+import { Route, Switch } from 'react-router-dom';
 
 function GearContainer() {
 
@@ -36,9 +37,18 @@ function GearContainer() {
 
     return (
         <div>
+        <Switch>
+          <Route path="/gear/:id">
+            <ItemDetails />
+          </Route>
+          <Route path="gear/new">
             <AddGearForm onAddGear={handleAddGear}/>
+          </Route>
+          <Route path="/">
             <SortGear filterCategory={handleCategory}/>
-            <GearList gear={filteredGear} onDelete={handleDelete} onPackUpdate={updateGearItem}/>    
+            <GearList gear={filteredGear} onDelete={handleDelete} onPackUpdate={updateGearItem}/>  
+          </Route>
+        </Switch>  
         </div>
     )
 }

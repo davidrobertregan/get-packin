@@ -1,5 +1,9 @@
 import React, {useState} from 'react';
 import { useHistory } from 'react-router-dom';
+import Form from "react-bootstrap/Form"
+import Container from 'react-bootstrap/Container'
+import Button from 'react-bootstrap/Button'
+import styled from 'styled-components';
 
 function AddGearForm({ onAddGear }) {
     const [formData, setFormData] = useState ({
@@ -43,50 +47,51 @@ function AddGearForm({ onAddGear }) {
           .then(onAddGear);
           history.push("/")
       }
-      
 
     return (
-        <div>
+        <Container>
           <h3>Add Gear!</h3>
-          <form onSubmit={handleSubmit}>
-              <label>Name</label>
-              <input
-                placeholder="Gear Name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-              />
-              <label>Category</label>
-              <input
-                placeholder="Gear Category"
-                name="category"
-                value={formData.category}
-                onChange={handleChange}
-              />
-              <label>Picture</label>
-              <input
-                placeholder="Gear Picture"
-                name="image"
-                value={formData.image}
-                onChange={handleChange}
-              />
-              <label>Descirption</label>
-              <input
-                placeholder="Gear Description"
-                name="description"
-                value={formData.description}
-                onChange={handleChange}
-              />
-               <label>Weight</label>
-               <input
-                placeholder="Gear Weight"
-                name="weight"
-                value={formData.weight}
-                onChange={handleChange}
-              />
-            <button>Submit</button>
-          </form>
-        </div>
+          <Form onSubmit={handleSubmit}>
+              <Form.Group>
+                <Form.Label>Name</Form.Label>
+                <Form.Control
+                  placeholder="Gear Name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                />
+                <Form.Label>Category</Form.Label>
+                <Form.Control
+                  placeholder="Gear Category"
+                  name="category"
+                  value={formData.category}
+                  onChange={handleChange}
+                />
+                <Form.Label className="text-align-left">Picture</Form.Label>
+                <Form.Control
+                  placeholder="Gear Picture"
+                  name="image"
+                  value={formData.image}
+                  onChange={handleChange}
+                />
+                <Form.Label>Description</Form.Label>
+                <Form.Control
+                  placeholder="Gear Description"
+                  name="description"
+                  value={formData.description}
+                  onChange={handleChange}
+                />
+                <Form.Label>Weight</Form.Label>
+                <Form.Control
+                  placeholder="Gear Weight"
+                  name="weight"
+                  value={formData.weight}
+                  onChange={handleChange}
+                />
+              <Button>Submit</Button>
+          </Form.Group>
+          </Form>
+        </Container>
       );
     }
 

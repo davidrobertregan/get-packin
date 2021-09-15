@@ -15,7 +15,7 @@ function SortGear({ filterCategory }) {
           <button onClick={handleClick} name='Sleeping Gear'>Sleeping Gear </button>
           <button onClick={handleClick} name='Miscellaneous Items'>Miscellaneous Items</button>
           <button onClick={handleClick} name='Optional Items'>Optional Items</button>
-        </>
+          </>
     )
 }
 

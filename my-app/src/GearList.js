@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import GearCard from "./GearCard"
 import CardGroup from 'react-bootstrap/CardGroup'
+import Button from 'react-bootstrap/Button'
 
 function GearList({ gear, onDelete, onPackUpdate }) {
     const [viewPacked, setViewPacked] = useState(false)
@@ -25,7 +26,7 @@ function GearList({ gear, onDelete, onPackUpdate }) {
         <div>
             <div>
                 <h3>View Items</h3>
-                <button onClick={handlePackedView}>Packed/Unpacked</button>
+                <Button variant="outline-success" onClick={handlePackedView}>Packed/Unpacked</Button>
             </div>
             <CardGroup className="justify-content-center"id="gear-list">
                 {gearCards}

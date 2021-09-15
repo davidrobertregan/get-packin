@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { useHistory } from 'react-router-dom';
 
 function AddGearForm({ onAddGear }) {
     const [formData, setFormData] = useState ({
@@ -8,6 +9,8 @@ function AddGearForm({ onAddGear }) {
         description:"",
         weight:""
     });
+
+    let history = useHistory();
 
     function handleChange(event) {
         setFormData({
@@ -38,7 +41,9 @@ function AddGearForm({ onAddGear }) {
         })
           .then((r) => r.json())
           .then(onAddGear);
+          history.push("/")
       }
+      
 
     return (
         <div>

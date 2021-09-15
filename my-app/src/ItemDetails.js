@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useHistory, Link } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 function ItemDetails () {
     const [item, setItem] = useState({});
 
     const { name, image, description, weight, packed } = item
     const id = useParams().id;
+    let history = useHistory();
  
    
  useEffect(() => {
@@ -18,7 +19,9 @@ function ItemDetails () {
 
     return (
         <>
-        <button>Back</button>
+        <button onClick={() => history.push("/")}>
+          Back
+        </button>
         <h2>{name}</h2>
         <div><img src={image}/></div>
         <div>{description}</div>

@@ -34,6 +34,11 @@ function GearContainer() {
         const updatedGear = gear.map(item => item.id === updatedItem.id ? updatedItem : item);
         setGear(updatedGear);
     }
+
+    
+    const packedGear = gear.filter(item => item.packed === true)
+    const totalWeight = packedGear.reduce((total, currentValue) => total = total + currentValue.weight,0)
+
   
     const filteredGear = gear.filter(item => filterCategory === "All Items" ? true : item.category === filterCategory)
 
@@ -50,6 +55,7 @@ function GearContainer() {
             <ItemDetails />
           </Route>
           <Route path="/">
+            <h3>Total Pack Weight: {totalWeight}oz</h3>
             <SortGear filterCategory={handleCategory}/>
             <GearList gear={filteredGear} onDelete={handleDelete} onPackUpdate={updateGearItem}/>  
           </Route>

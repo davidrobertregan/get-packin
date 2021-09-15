@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
 
-function GearCard({gear, onDelete, onPackUpdate}) {
+function GearCard({gear, onDelete, onPackUpdate,}) {
     
-    const {name, image, category, id, packed} = gear
+    const { name, image, category, id, packed, description } = gear
     
     function handleDelete() {
         fetch(`http://localhost:3000/gear/${id}`, {
@@ -29,21 +32,27 @@ function GearCard({gear, onDelete, onPackUpdate}) {
     }
 
     return(
-        <div className="gear-card">
-            <h4>{name}</h4>
-            <div>
-              <Link to={`/gear/${id}`}>
-                <img src={image} style={{width: '150px'}}/>
-              </Link>    
-            </div>
-                <p>{category}</p>
-            <button onClick={handlePackClick}>
+        
+
+        <CardGroup>
+        <Card style={{ width: '18rem' }} className="gear-card">
+           <Link to={`/gear/${id}`}>
+            <Card.Img variant="top" src={image} style={{maxHeight: '200px', objectFit: 'contain'}}/>
+            </Link>
+          <Card.Body>     
+            <Card.Title>{name}</Card.Title> 
+            <Card.Text>{category}</Card.Text>
+            <Card.Text>{description}</Card.Text> 
+          </Card.Body>
+          <Button variant="success" size="sm" onClick={handlePackClick}>
                 Pack / Unpack
-            </button>
-            <button onClick={handleDelete}>
+            </Button>
+            <Button variant="danger" size="sm" onClick={handleDelete}>
                 Remove Gear
-            </button>
-        </div>
+            </Button>
+        </Card>
+        </CardGroup>
+   
     )
 }
 

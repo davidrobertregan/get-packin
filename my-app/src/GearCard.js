@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
+import { Button, Card, CardGroup } from 'react-bootstrap'
 
 function GearCard({gear, onDelete, onPackUpdate,}) {
     
-    const { name, image, category, id, packed, description } = gear
+    const { name, image, category, id, packed, description, weight } = gear
     
     function handleDelete() {
         fetch(`http://localhost:3000/gear/${id}`, {
@@ -42,7 +40,8 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
           <Card.Body>     
             <Card.Title>{name}</Card.Title> 
             <Card.Text>{category}</Card.Text>
-            <Card.Text>{description}</Card.Text> 
+            <Card.Text>Weight: {weight}oz</Card.Text>
+            <Card.Text>{description}</Card.Text>    
           </Card.Body>
           <Button variant="success" size="sm" onClick={handlePackClick}>
                 Pack / Unpack

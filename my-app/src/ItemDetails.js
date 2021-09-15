@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useHistory } from 'react-router-dom';
+import { Button, Card } from 'react-bootstrap'
 
 function ItemDetails () {
     const [item, setItem] = useState({});
@@ -18,16 +19,18 @@ function ItemDetails () {
       }, [id]);
 
     return (
-        <>
-        <button onClick={() => history.push("/")}>
-          Back
-        </button>
-        <h2>{name}</h2>
-        <div><img src={image}/></div>
-        <div>{description}</div>
-        <p>Weighs: {weight}oz</p>
-        <div>{packed ? "Item is packed!" : "Item is not packed."}</div>
-        </>
+        <Card style={{width: '20rem', align: 'center'}}>
+        <Card.Body>
+        <Card.Title>{name}</Card.Title>
+        <Card.Img src={image} alt={name}/>
+        <Card.Text>{description}</Card.Text>
+        <Card.Text>Weighs: {weight}oz</Card.Text>
+        <Card.Text>{packed ? "Item is packed!" : "Item is not packed."}</Card.Text>
+        </Card.Body>
+        <Button variant="success" size="lg" onClick={() => history.push("/")}>
+         ⬅ Back
+        </Button>
+        </Card>
     )     
 }
 

@@ -1,6 +1,5 @@
 import {Button, ButtonGroup} from 'react-bootstrap'
 
-
 function SortGear({ filterCategory }) {
 
     function handleClick(e) {

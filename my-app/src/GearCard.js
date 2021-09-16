@@ -29,13 +29,13 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
   
     }
 
-    const buttonText = packed ? "Unpack" : "Pack"
+    const buttonText = packed ? "Unpack Gear" : "Pack Gear"
 
     return(
         
 
         <CardGroup style={{ padding:'5px'}}>
-        <Card style={{ width: '18rem'}} className="gear-card">
+        <Card style={{ width: '18rem', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)'}} className="gear-card"  >
           <Card.Header>
             <Card.Title>{name}</Card.Title> 
           </Card.Header>
@@ -45,14 +45,14 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
           <Card.Body>     
             <Card.Text>{category}</Card.Text>
             <Card.Text>Weight: {weight}oz</Card.Text>
-            <Card.Text>{description}</Card.Text>    
-          </Card.Body>
-          <Button variant="success" size="sm" onClick={handlePackClick}>
+            <Card.Text>{description}</Card.Text>   
+          </Card.Body> 
+           <Button variant="secondary"  onClick={handlePackClick}>
                 {buttonText}
-            </Button>
-            <Button variant="danger" size="sm" onClick={handleDelete}>
+            </Button> 
+          <Button variant="danger"  onClick={handleDelete}>
                 Remove Gear
-            </Button>
+           </Button>       
         </Card>
         </CardGroup>
    

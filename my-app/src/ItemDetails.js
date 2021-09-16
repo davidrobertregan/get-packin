@@ -30,7 +30,7 @@ function ItemDetails () {
         <Card.Text>Weight: {weight}oz</Card.Text>
         <Card.Text>{packed ? "Item is packed!" : "Item is not packed."}</Card.Text>
         </Card.Body>
-        <Button variant="success" size="lg" onClick={() => history.push("/")}>
+        <Button variant="secondary" size="lg" onClick={() => history.push("/")}>
          ⬅ Back
         </Button>
         </Card>

@@ -43,7 +43,7 @@ function GearContainer() {
     const filteredGear = gear.filter(item => filterCategory === "All Items" ? true : item.category === filterCategory)
 
     return (
-        <div >
+        <div>
         <Switch>
           <Route exact path="/gear/new">
             <AddGearForm onAddGear={handleAddGear}/>

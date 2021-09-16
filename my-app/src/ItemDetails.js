@@ -20,8 +20,10 @@ function ItemDetails () {
 
     return (
         <Card style={{width: '30rem', marginLeft:'auto', marginRight: 'auto'}}>
+        <Card.Header>
+          <Card.Title>{name}</Card.Title> 
+        </Card.Header>
         <Card.Body>
-        <Card.Title>{name}</Card.Title>
         <Card.Img src={image} alt={name} style={{maxHeight: '500px', objectFit: 'contain'}}/>
         <Card.Text>{description}</Card.Text>
         <Card.Text>Weight: {weight}oz</Card.Text>

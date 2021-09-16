@@ -32,13 +32,15 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
     return(
         
 
-        <CardGroup>
-        <Card style={{ width: '18rem' }} className="gear-card">
+        <CardGroup style={{ padding:'5px'}}>
+        <Card style={{ width: '18rem'}} className="gear-card">
+          <Card.Header>
+            <Card.Title>{name}</Card.Title> 
+          </Card.Header>
            <Link to={`/gear/${id}`}>
             <Card.Img variant="top" src={image} style={{maxHeight: '200px', objectFit: 'contain'}}/>
             </Link>
           <Card.Body>     
-            <Card.Title>{name}</Card.Title> 
             <Card.Text>{category}</Card.Text>
             <Card.Text>Weight: {weight}oz</Card.Text>
             <Card.Text>{description}</Card.Text>    

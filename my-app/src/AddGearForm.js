@@ -53,42 +53,42 @@ function AddGearForm({ onAddGear }) {
           <h3>Add Gear!</h3>
           <Form onSubmit={handleSubmit}>
               <Form.Group>
-                <Form.Label>Name</Form.Label>
+                <Form.Label>Name:</Form.Label>
                 <Form.Control
                   placeholder="Gear Name"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
                 />
-                <Form.Label>Category</Form.Label>
+                <Form.Label>Category:</Form.Label>
                 <Form.Control
                   placeholder="Gear Category"
                   name="category"
                   value={formData.category}
                   onChange={handleChange}
                 />
-                <Form.Label className="text-align-left">Picture</Form.Label>
+                <Form.Label className="text-align-left">Picture:</Form.Label>
                 <Form.Control
                   placeholder="Gear Picture"
                   name="image"
                   value={formData.image}
                   onChange={handleChange}
                 />
-                <Form.Label>Description</Form.Label>
+                <Form.Label>Description:</Form.Label>
                 <Form.Control
                   placeholder="Gear Description"
                   name="description"
                   value={formData.description}
                   onChange={handleChange}
                 />
-                <Form.Label>Weight</Form.Label>
+                <Form.Label>Weight:</Form.Label>
                 <Form.Control
                   placeholder="Gear Weight"
                   name="weight"
                   value={formData.weight}
                   onChange={handleChange}
                 />
-              <Button type="submit">Submit</Button>
+              <Button variant="secondary" type="submit">Submit</Button>
           </Form.Group>
           </Form>
         </Container>

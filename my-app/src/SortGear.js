@@ -26,7 +26,7 @@ function SortGear({ handleCategory, gear, filterCategory}) {
 
     return (
         <>
-        <h3>Sort By:</h3>
+        <h4>Sort By:</h4>
           <ButtonGroup size="md">
             {buttons}
           </ButtonGroup>

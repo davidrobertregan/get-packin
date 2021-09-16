@@ -55,7 +55,7 @@ function GearContainer() {
             <ItemDetails />
           </Route>
           <Route path="/">
-            <h3>Total Pack Weight: {totalWeight}oz</h3>
+            <h4>Total Pack Weight: {totalWeight}oz</h4>
             <SortGear handleCategory={handleCategory} filterCategory={filterCategory} gear={gear}/>
             <GearList gear={filteredGear} onDelete={handleDelete} onPackUpdate={updateGearItem}/>  
           </Route>

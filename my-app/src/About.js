@@ -17,11 +17,11 @@ function About () {
                         <Figure.Image
                             src="https://static.wixstatic.com/media/065e6b_dd1a8624bd5b40c9848aeec671ed811b.png/v1/fit/w_936%2Ch_733%2Cal_c/file.png"
                             thumbnail
-                            width={150}/>
+                            width={250}/>
                         <Figure.Image
                             src="http://i.imgur.com/psBBZIV.png"
                             thumbnail
-                            width={150}/>
+                            width={210}/>
                     </Figure>
                 </Container>
             </div>

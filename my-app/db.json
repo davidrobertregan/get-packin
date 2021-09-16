@@ -17,7 +17,7 @@
       "image": "https://uploads-ssl.webflow.com/5bdb79da14cac75741aa5bc5/5cbe23d5f58072eed40bc2b3_Melanzana%20Hoodie.001.jpeg",
       "description": "Polyester fleece pullover/expedition weight top of Polartec® 100 or 200, or a wool sweater.",
       "weight": 12.5,
-      "packed": false,
+      "packed": true,
       "quantity": 1
     },
     {
@@ -57,7 +57,7 @@
       "image": "https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw1cdfcadc/images/hi-res/45760_SUPX.jpg?sw=2000&sh=2000&sfrm=png&q=80&bgcolor=f6f6f6",
       "description": "A lightweight polyester, wool / Capilene® T- shirt.",
       "weight": 2,
-      "packed": false,
+      "packed": true,
       "quantity": 1
     },
     {

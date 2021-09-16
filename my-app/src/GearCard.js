@@ -29,6 +29,8 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
   
     }
 
+    const buttonText = packed ? "Unpack" : "Pack"
+
     return(
         
 
@@ -46,7 +48,7 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
             <Card.Text>{description}</Card.Text>    
           </Card.Body>
           <Button variant="success" size="sm" onClick={handlePackClick}>
-                Pack / Unpack
+                {buttonText}
             </Button>
             <Button variant="danger" size="sm" onClick={handleDelete}>
                 Remove Gear

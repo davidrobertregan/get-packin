@@ -1,5 +1,4 @@
 import {Button, ButtonGroup} from 'react-bootstrap'
-import ItemDetails from './ItemDetails'
 
 function SortGear({ handleCategory, gear, filterCategory}) {
 

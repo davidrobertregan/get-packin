@@ -19,12 +19,12 @@ function ItemDetails () {
       }, [id]);
 
     return (
-        <Card style={{width: '20rem', align: 'center'}}>
+        <Card style={{width: '30rem', marginLeft:'auto', marginRight: 'auto'}}>
         <Card.Body>
         <Card.Title>{name}</Card.Title>
-        <Card.Img src={image} alt={name}/>
+        <Card.Img src={image} alt={name} style={{maxHeight: '500px', objectFit: 'contain'}}/>
         <Card.Text>{description}</Card.Text>
-        <Card.Text>Weighs: {weight}oz</Card.Text>
+        <Card.Text>Weight: {weight}oz</Card.Text>
         <Card.Text>{packed ? "Item is packed!" : "Item is not packed."}</Card.Text>
         </Card.Body>
         <Button variant="success" size="lg" onClick={() => history.push("/")}>

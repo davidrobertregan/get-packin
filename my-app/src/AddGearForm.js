@@ -22,30 +22,45 @@ function AddGearForm({ onAddGear }) {
         });
     }
 
+    function emptyForm() {
+      for(let key in formData) {
+        if(formData[key] === "") {
+          return false
+        } else {
+          return true
+        }
+      }
+    }
     function handleSubmit(event) {
         event.preventDefault()
-        console.log('firing')
 
-        const newGear = {
-          name: formData.name,
-          category: formData.category,
-          image: formData.image,
-          description: formData.description,
-          weight: parseInt(formData.weight),
-          quantitiy: 1,
-          packed: false
-        };
+        if (emptyForm() === false) {
+          alert('Whoops! You forgot something!')
+        }
+        else {
+          console.log('firing')
+
+          const newGear = {
+            name: formData.name,
+            category: formData.category,
+            image: formData.image,
+            description: formData.description,
+            weight: parseInt(formData.weight),
+            quantitiy: 1,
+            packed: false
+          };
     
-        fetch("http://localhost:3000/gear", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(newGear),
-        })
-          .then((r) => r.json())
-          .then(onAddGear);
-          history.push("/")
+          fetch("http://localhost:3000/gear", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(newGear),
+          })
+            .then((r) => r.json())
+            .then(onAddGear);
+            history.push("/")
+        }
       }
 
     return (

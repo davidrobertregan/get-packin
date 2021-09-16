@@ -23,11 +23,13 @@ function GearList({ gear, onDelete, onPackUpdate }) {
     }
 
     const buttonText = viewPacked ? "Unpacked Gear" : "Packed Gear"
+    const viewText = viewPacked ? "This gear is packed!" : "This gear has not been packed yet"
 
     return (
         <div>
             <div>
                 <Button variant="primary" onClick={handlePackedView}>See {buttonText}</Button>
+                <h3>{viewText}</h3>
             </div>
             <CardGroup className="justify-content-center"id="gear-list">
                 {gearCards}

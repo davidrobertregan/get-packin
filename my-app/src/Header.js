@@ -5,7 +5,7 @@ function Header() {
         <div>
             <Navbar bg="dark" variant="dark">
               <Container>
-                <Navbar.Brand>⛺️Get Packin'</Navbar.Brand>
+                <Navbar.Brand href="/">⛺️Get Packin'</Navbar.Brand>
                 <Nav>
                   <Nav.Link href="/">
                     Gear List

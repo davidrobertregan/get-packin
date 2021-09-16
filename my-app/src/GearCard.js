@@ -30,12 +30,11 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
     }
 
     const buttonText = packed ? "Unpack Gear" : "Pack Gear"
-
+   
     return(
         
-
         <CardGroup style={{ padding:'5px'}}>
-        <Card style={{ width: '18rem', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)'}} className="gear-card"  >
+        <Card style={{ width: '18rem', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', hover: {color: 'blue'} }} className="gear-card"  >
           <Card.Header>
             <Card.Title>{name}</Card.Title> 
           </Card.Header>

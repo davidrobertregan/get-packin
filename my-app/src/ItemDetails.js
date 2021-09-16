@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useHistory } from 'react-router-dom';
-import { Button, Card } from 'react-bootstrap'
+import { Button, Card, CardGroup } from 'react-bootstrap'
 
 function ItemDetails () {
     const [item, setItem] = useState({});
@@ -19,7 +19,8 @@ function ItemDetails () {
       }, [id]);
 
     return (
-        <Card style={{width: '30rem', marginLeft:'auto', marginRight: 'auto'}}>
+      <CardGroup style={{padding:'30px'}}>
+        <Card style={{maxWidth: '30rem', marginLeft:'auto', marginRight: 'auto',}}>
         <Card.Header>
           <Card.Title>{name}</Card.Title> 
         </Card.Header>
@@ -33,6 +34,7 @@ function ItemDetails () {
          ⬅ Back
         </Button>
         </Card>
+      </CardGroup >
     )     
 }
 

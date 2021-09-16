@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <GearContainer />
+      <GearContainer bg="dark" variant="dark"/>
     </div>
   );
 }

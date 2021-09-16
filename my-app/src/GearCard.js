@@ -40,7 +40,7 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
             <Card.Title>{name}</Card.Title> 
           </Card.Header>
            <Link to={`/gear/${id}`}>
-            <Card.Img variant="top" src={image} style={{maxHeight: '200px', objectFit: 'contain'}}/>
+            <Card.Img variant="top" src={image} style={{maxHeight: '200px', objectFit: 'contain', padding: '10px'}}/>
             </Link>
           <Card.Body>     
             <Card.Text>{category}</Card.Text>

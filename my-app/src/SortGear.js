@@ -1,22 +1,35 @@
 import {Button, ButtonGroup} from 'react-bootstrap'
+import ItemDetails from './ItemDetails'
 
-function SortGear({ filterCategory }) {
+function SortGear({ handleCategory, gear, filterCategory}) {
 
     function handleClick(e) {
-        filterCategory(e)
+        handleCategory(e)
     }
+
+    const allCategories = gear.map(item => item.category)
+    const categories = [...new Set(allCategories)]
+    categories.unshift('All Items')
+
+
+    const buttons = categories.map(cat => {
+      const variant = filterCategory === cat ? "secondary" : "outline-secondary"
+      return (<Button 
+        key={cat}
+        onClick={handleClick}
+        name={cat}
+        variant={variant}
+        >
+          {cat}
+      </Button>)
+    })
 
 
     return (
         <>
         <h3>Sort By:</h3>
           <ButtonGroup size="md">
-            <Button variant="outline-secondary" onClick={handleClick} name='All Items' >All Items</Button>
-            <Button variant="outline-secondary" onClick={handleClick} name='Clothing' >Clothing</Button>
-            <Button variant="outline-secondary" onClick={handleClick} name='Packs & Bags'>Packs & Bags</Button>
-            <Button variant="outline-secondary" onClick={handleClick} name='Sleeping Gear'>Sleeping Gear </Button>
-            <Button variant="outline-secondary" onClick={handleClick} name='Miscellaneous Items'>Miscellaneous Items</Button>
-            <Button variant="outline-secondary" onClick={handleClick} name='Optional Items'>Optional Items</Button>
+            {buttons}
           </ButtonGroup>
           </>
     )

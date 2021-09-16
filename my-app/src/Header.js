@@ -3,18 +3,20 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 function Header() {
     return (
         <div>
-            <Navbar bg="dark" variant="dark" className="justify-content-center">
+            <Navbar bg="dark" variant="dark">
               <Container>
-                <Navbar.Brand><h3>⛺️Get Packin'</h3></Navbar.Brand>
-                <Nav.Link className="button" href="/">
-                  Gear List
-                </Nav.Link>
-                <Nav.Link className="button" href="/gear/new">
-                  Add New Gear
-                </Nav.Link>
-                <Nav.Link className="button" href="/about">
-                  About
-                </Nav.Link>
+                <Navbar.Brand>⛺️Get Packin'</Navbar.Brand>
+                <Nav>
+                  <Nav.Link href="/">
+                    Gear List
+                  </Nav.Link>
+                  <Nav.Link href="/gear/new">
+                    Add New Gear
+                  </Nav.Link>
+                  <Nav.Link href="/about">
+                    About
+                  </Nav.Link>
+                </Nav>
               </Container>
             </Navbar>
         </div>

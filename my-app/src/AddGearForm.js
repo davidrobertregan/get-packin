@@ -3,7 +3,6 @@ import { useHistory } from 'react-router-dom';
 import Form from "react-bootstrap/Form"
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
-import styled from 'styled-components';
 
 function AddGearForm({ onAddGear }) {
     const [formData, setFormData] = useState ({
@@ -25,6 +24,7 @@ function AddGearForm({ onAddGear }) {
 
     function handleSubmit(event) {
         event.preventDefault()
+        console.log('firing')
 
         const newGear = {
           name: formData.name,
@@ -88,7 +88,7 @@ function AddGearForm({ onAddGear }) {
                   value={formData.weight}
                   onChange={handleChange}
                 />
-              <Button>Submit</Button>
+              <Button type="submit">Submit</Button>
           </Form.Group>
           </Form>
         </Container>

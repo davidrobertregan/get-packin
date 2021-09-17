@@ -6,7 +6,7 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
     const { name, image, category, id, packed, description, weight } = gear
     
     function handleDelete() {
-        fetch(`http://localhost:3000/gear/${id}`, {
+        fetch(`https://desolate-wave-89944.herokuapp.com/gear/${id}`, {
             method: "DELETE"
         })
         .then(resp => resp.json())
@@ -17,7 +17,7 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
         const updatedPack = {
             packed: !packed
         }
-        fetch(`http://localhost:3000/gear/${id}`, {
+        fetch(`https://desolate-wave-89944.herokuapp.com/gear/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",

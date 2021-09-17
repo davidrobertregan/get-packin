@@ -11,7 +11,7 @@ function ItemDetails () {
  
    
  useEffect(() => {
-        fetch(`http://localhost:3000/gear/${id}`)
+        fetch(`https://desolate-wave-89944.herokuapp.com/gear/${id}`)
           .then((r) => r.json())
           .then((item) => {
             setItem(item);

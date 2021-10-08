@@ -8,9 +8,9 @@ function ItemDetails () {
     const { name, image, description, weight, packed } = item
     const id = useParams().id;
     let history = useHistory();
- 
-   
- useEffect(() => {
+
+
+useEffect(() => {
         fetch(`https://desolate-wave-89944.herokuapp.com/gear/${id}`)
           .then((r) => r.json())
           .then((item) => {

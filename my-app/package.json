@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://still-brushlands-98055.herokuapp.com",
-  "homepage": ".",
+  "homepage": "https://get-packin.netlify.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

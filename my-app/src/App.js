@@ -5,6 +5,7 @@ import Header from "./Header"
 import GearContainer from './GearContainer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { useState, useEffect } from "react"
+import Container from 'react-bootstrap/Container';
 
 
 function App() {
@@ -31,14 +32,15 @@ function App() {
     <>
     { currentUser ?
     <div className="App" >
-      <Header />
+      <Header setCurrentUser={setCurrentUser}/>
       <GearContainer />
     </div>
     :
-    <div>
+    <Container className="pt-5">
+      <h1 style={{textAlign: "center"}}>⛺️ Get Packin'</h1>
       <Login setCurrentUser={setCurrentUser}/>
       <Signup setCurrentUser={setCurrentUser}/>
-    </div>
+    </Container>
     }
     </>
   );

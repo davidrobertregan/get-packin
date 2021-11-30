@@ -44,7 +44,7 @@ function Login({setCurrentUser }) {
     }
 
     return (
-        <Container fluid className="p-5">
+        <Container className="p-5">
             <h2>Log In</h2>
                 <Form onSubmit={handleSubmit}> 
                     <Form.Group className="mb-3"> 
@@ -57,7 +57,7 @@ function Login({setCurrentUser }) {
                     </Form.Group>
                     <Button variant='light' type='submit'>Submit</Button>
                 </Form>
-                <Link to="/signup">sign up</Link>
+                <b>Don't have an account? Sign up below</b>
         </Container>
     )
 }

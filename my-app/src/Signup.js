@@ -44,7 +44,7 @@ function Signup({setCurrentUser}) {
     }
 
     return(
-        <Container className='w-50 p-5'>
+        <Container className='p-5'>
             <h2>Sign Up</h2>
             <Form onSubmit={handleSubmit} > 
                 <Form.Group className="mb-3">
@@ -61,7 +61,6 @@ function Signup({setCurrentUser}) {
                 </Form.Group>
                 <Button variant='light' type='submit'>Submit</Button>
             </Form>
-            <Link to="/">I already have an account</Link>
         </Container>
 
     )

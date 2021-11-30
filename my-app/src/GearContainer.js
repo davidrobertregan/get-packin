@@ -12,7 +12,7 @@ function GearContainer() {
     const [filterCategory, setFilterCategory] =useState("All Items")
 
     useEffect(() => {
-        fetch('/gear_items')
+        fetch('/api/gear_items')
         .then(resp => resp.json())
         .then(data => setGear(data))
     }, [])

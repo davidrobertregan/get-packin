@@ -11,7 +11,7 @@ function ItemDetails () {
 
 
 useEffect(() => {
-        fetch(`/gear_items/${id}`)
+        fetch(`/api/gear_items/${id}`)
           .then((r) => r.json())
           .then((item) => {
             setItem(item);

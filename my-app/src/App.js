@@ -13,7 +13,7 @@ function App() {
   const [authChecked, setAuthChecked] = useState(false)
 
   useEffect(() => {
-    fetch("/me")
+    fetch("/api/me")
     .then(r => {
       if (r.ok) {
         r.json().then(user => {

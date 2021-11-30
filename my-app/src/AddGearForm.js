@@ -50,7 +50,7 @@ function AddGearForm({ onAddGear }) {
             packed: false
           };
     
-          fetch("/gear_items", {
+          fetch("/api/gear_items", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

@@ -6,7 +6,7 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
     const { name, image, category, id, packed, description, weight } = gear
     
     function handleDelete() {
-        fetch(`/gear_items/${id}`, {
+        fetch(`/api/gear_items/${id}`, {
             method: "DELETE"
         })
         onDelete(gear)
@@ -16,7 +16,7 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
         const updatedPack = {
             packed: !packed
         }
-        fetch(`/gear_items/${id}`, {
+        fetch(`/api/gear_items/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",

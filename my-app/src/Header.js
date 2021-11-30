@@ -16,6 +16,9 @@ function Header() {
                   <Nav.Link href="/about">
                     About
                   </Nav.Link>
+                  <Nav.Link>
+                    Logout
+                  </Nav.Link>
                 </Nav>
               </Container>
             </Navbar>

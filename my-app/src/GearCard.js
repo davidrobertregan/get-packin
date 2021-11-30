@@ -6,18 +6,17 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
     const { name, image, category, id, packed, description, weight } = gear
     
     function handleDelete() {
-        fetch(`https://desolate-wave-89944.herokuapp.com/gear/${id}`, {
+        fetch(`/gear_items/${id}`, {
             method: "DELETE"
         })
-        .then(resp => resp.json())
-        .then(() => onDelete(gear));
+        onDelete(gear)
     }
 
     function handlePackClick() {
         const updatedPack = {
             packed: !packed
         }
-        fetch(`https://desolate-wave-89944.herokuapp.com/gear/${id}`, {
+        fetch(`/gear_items/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
@@ -26,11 +25,10 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
         })
         .then((r) => r.json())
         .then(onPackUpdate);
-  
     }
 
     const buttonText = packed ? "Unpack Gear" : "Pack Gear"
-   
+
     return(
         
         <CardGroup style={{ padding:'10px'}}>

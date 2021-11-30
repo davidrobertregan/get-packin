@@ -50,7 +50,7 @@ function AddGearForm({ onAddGear }) {
             packed: false
           };
     
-          fetch("https://desolate-wave-89944.herokuapp.com/gear", {
+          fetch("/gear_items", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

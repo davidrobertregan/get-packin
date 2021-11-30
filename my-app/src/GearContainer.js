@@ -12,7 +12,7 @@ function GearContainer() {
     const [filterCategory, setFilterCategory] =useState("All Items")
 
     useEffect(() => {
-        fetch('https://desolate-wave-89944.herokuapp.com/gear')
+        fetch('/gear_items')
         .then(resp => resp.json())
         .then(data => setGear(data))
     }, [])

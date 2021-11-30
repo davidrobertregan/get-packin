@@ -29,7 +29,7 @@ function Login({setCurrentUser }) {
             body: JSON.stringify(formData)
         }
 
-        fetch("http://localhost:3000/login", configObj)
+        fetch("/login", configObj)
         .then(r => {
             if(r.ok) {
                 r.json()

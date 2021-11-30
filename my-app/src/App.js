@@ -13,7 +13,7 @@ function App() {
   const [authChecked, setAuthChecked] = useState(false)
 
   useEffect(() => {
-    fetch("http://localhost:3000/me")
+    fetch("/me")
     .then(r => {
       if (r.ok) {
         r.json().then(user => {

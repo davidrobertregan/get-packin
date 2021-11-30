@@ -29,7 +29,7 @@ function Signup({setCurrentUser}) {
             body: JSON.stringify(formData)
         }
 
-        fetch("https://still-brushlands-98055.herokuapp.com/signup", configObj)
+        fetch("/signup", configObj)
         .then(r => {
             if(r.ok) {
                 r.json()

@@ -38,7 +38,7 @@ function Signup({setCurrentUser}) {
                 history.push("/")
             } else {
                 r.json()
-                .then(errors => console.log(errors))
+                .then(errors => alert("Hmmm... looks like that email is taken or your passwords don't match. Please try again."))
             }
         })
     }

@@ -45,7 +45,7 @@ function GearContainer() {
     return (
         <div>
         <Switch>
-          <Route exact path="/gear/new">
+          <Route exact path="/new">
             <AddGearForm onAddGear={handleAddGear}/>
           </Route>
           <Route path="/about">

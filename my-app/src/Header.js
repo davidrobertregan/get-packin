@@ -10,7 +10,7 @@ function Header() {
                   <Nav.Link href="/">
                     Gear List
                   </Nav.Link>
-                  <Nav.Link href="/gear/new">
+                  <Nav.Link href="/new">
                     Add New Gear
                   </Nav.Link>
                   <Nav.Link href="/about">

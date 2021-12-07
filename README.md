@@ -24,5 +24,5 @@ https://www.loom.com/share/ba1679c3a2474039ba5c2ef8dd1a7183
 
 ## If I had more time I would change this: 
 - Add a feature where the user could add friends and see their gear
-- Restyle with CSS to better hone my styling skills
+- Restyle without Bootstrap to better hone my styling skills
 - I had to change my fetch request urls for production to Netlify. I got everyting to work, but I would like to figure out a better solution to the problem.

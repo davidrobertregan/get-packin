@@ -31,7 +31,7 @@ useEffect(() => {
         <Card.Text>{packed ? "Item is packed!" : "Item is not packed."}</Card.Text>
         </Card.Body>
         <Button variant="secondary" size="lg" onClick={() => history.push("/")}>
-         ⬅ Back
+          ⬅ Back
         </Button>
         </Card>
       </CardGroup >

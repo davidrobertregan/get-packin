@@ -33,26 +33,25 @@ function GearCard({gear, onDelete, onPackUpdate,}) {
         
         <CardGroup style={{ padding:'10px'}}>
         <Card style={{ width: '18rem', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', hover: {color: 'blue'} }} className="gear-card"  >
-          <Card.Header>
-            <Card.Title>{name}</Card.Title> 
-          </Card.Header>
-           <Link to={`/gear/${id}`}>
-            <Card.Img variant="top" src={image} style={{maxHeight: '200px', objectFit: 'contain', padding: '10px'}}/>
+            <Card.Header>
+                <Card.Title>{name}</Card.Title> 
+            </Card.Header>
+            <Link to={`/gear/${id}`}>
+                <Card.Img variant="top" src={image} style={{maxHeight: '200px', objectFit: 'contain', padding: '10px'}}/>
             </Link>
-          <Card.Body>     
-            <Card.Text>{category}</Card.Text>
-            <Card.Text>Weight: {weight}oz</Card.Text>
-            <Card.Text>{description}</Card.Text>   
-          </Card.Body> 
-           <Button variant="secondary"  onClick={handlePackClick}>
+            <Card.Body>     
+                <Card.Text>{category}</Card.Text>
+                <Card.Text>Weight: {weight}oz</Card.Text>
+                <Card.Text>{description}</Card.Text>   
+            </Card.Body> 
+            <Button variant="secondary"  onClick={handlePackClick}>
                 {buttonText}
             </Button> 
-          <Button variant="danger"  onClick={handleDelete}>
+            <Button variant="danger"  onClick={handleDelete}>
                 Remove Gear
-           </Button>       
+            </Button>       
         </Card>
         </CardGroup>
-   
     )
 }
 

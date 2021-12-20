@@ -48,7 +48,7 @@ function Login({setCurrentUser }) {
             <h2>Log In</h2>
                 <Form onSubmit={handleSubmit}> 
                     <Form.Group className="mb-3"> 
-                        <Form.Label>Username</Form.Label>
+                        <Form.Label>Email</Form.Label>
                         <Form.Control onChange={handleChange} value={formData.email} type="text" name="email"></Form.Control>
                     </Form.Group >
                     <Form.Group className="mb-3">

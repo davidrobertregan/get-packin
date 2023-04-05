@@ -4,6 +4,7 @@ Backpacker’s gear app that calculates and displays  weight of each item during
 ## Watch the demo in two minutes:
 https://www.loom.com/share/ba1679c3a2474039ba5c2ef8dd1a7183
 
+- Check out the app on [Netlify](https://get-packin.netlify.app/)
 - [Back-end Repo](https://github.com/davidrobertregan/get-packin-api)
 
 ## How I worked on this project
